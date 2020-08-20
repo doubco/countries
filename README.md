@@ -12,13 +12,46 @@ yarn add @doubco/countries
 
 ### Get country data
 
-es6
+#### `data`
+
+##### Raw
+
+```json
+{
+  ...,
+  "TR": {
+    "name": "Turkey",
+    "flag": "🇹🇷",
+    "code": "+90",
+    "currency": "TRY",
+    "capital": "Ankara",
+    "languages": ["tr"],
+    "nameNative": "Türkiye"
+  },
+  ...
+}
+```
+
+##### List
+
+```json
+[
+  ...
+  {
+    "_id": "TR",
+    "label": "Turkey (Türkiye)"
+  },
+  ...
+]
+```
+
+#### `es6`
 
 ```js
 import { countries, countryList } from "@doubco/countries";
 ```
 
-nodejs
+#### `nodejs`
 
 ```js
 const { countries, countryList } = require("@doubco/countries");
@@ -26,13 +59,38 @@ const { countries, countryList } = require("@doubco/countries");
 
 ### Get locale data
 
-es6
+#### `data`
+
+##### Raw
+
+```json
+{
+  ...,
+  "en_GB": "English - Great Britain",
+  ...
+}
+```
+
+##### List
+
+```json
+[
+  ...
+  {
+    "_id": "en_GB",
+    "label": "English - Great Britain"
+  },
+  ...
+]
+```
+
+#### `es6`
 
 ```js
 import { locales, localeList } from "@doubco/countries/locales";
 ```
 
-nodejs
+#### `nodejs`
 
 ```js
 const { locales, localeList } = require("@doubco/countries/locales");
@@ -40,13 +98,41 @@ const { locales, localeList } = require("@doubco/countries/locales");
 
 ### Get language data
 
-es6
+#### `data`
+
+##### Raw
+
+```json
+{
+  ...,
+  "tr": {
+    "name": "Turkish",
+    "nativeName": "Türkçe"
+  },
+  ...
+}
+```
+
+##### List
+
+```json
+[
+  ...
+  {
+    "_id": "tr",
+    "label": "Turkish (Türkçe)"
+  },
+  ...
+]
+```
+
+#### `es6`
 
 ```js
 import { languages, languageList } from "@doubco/countries/languages";
 ```
 
-nodejs
+#### `nodejs`
 
 ```js
 const { languages, languageList } = require("@doubco/countries/languages");
@@ -54,27 +140,85 @@ const { languages, languageList } = require("@doubco/countries/languages");
 
 ### Get currency data
 
-es6
+#### `data`
 
-```js
-import { currencies, currencyList } from "@doubco/countries/currencies";
+##### Raw
+
+```json
+{
+  ...,
+  "TRY":{
+    "name":"Turkish Lira",
+    "nativeName":"Türk Lirası",
+    "symbol":"₺"
+  }
+  ...
+}
 ```
 
-nodejs
+##### List
+
+```json
+[
+  ...
+  {
+    "_id": "TRY",
+    "label": "Turkish Lira (₺)",
+  },
+  ...
+]
+```
+
+##### List Lite
+
+```json
+[
+  ...
+  {
+    "_id": "TRY",
+    "label": "TRY",
+  },
+  ...
+]
+```
+
+#### `es6`
 
 ```js
-const { currencies, currencyList } = require("@doubco/countries/currencies");
+import {
+  currencies,
+  currenciesSafe,
+  currencyList,
+  currenciesListLite,
+  currenciesListSafe,
+  currenciesListLiteSafe,
+} from "@doubco/countries/currencies";
+```
+
+> `XXXSafe` includes only currencies supported by most currency convertion APIs.
+
+#### `nodejs`
+
+```js
+const {
+  currencies,
+  currenciesSafe,
+  currencyList,
+  currenciesListLite,
+  currenciesListSafe,
+  currenciesListLiteSafe,
+} = require("@doubco/countries/currencies");
 ```
 
 ### Get timezone data
 
-es6
+#### `es6`
 
 ```js
 import { timezones, timezoneList } from "@doubco/countries/timezones";
 ```
 
-nodejs
+#### `nodejs`
 
 ```js
 const { timezones, timezoneList } = require("@doubco/countries/timezones");
