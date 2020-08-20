@@ -6,7 +6,7 @@
     "currency": "AFN",
     "capital": "Kabul",
     "languages": ["ps", "uz", "tk"],
-    "nameNative": "افغانستان"
+    "nativeName": "افغانستان"
   },
   "AX": {
     "name": "Åland Islands",
@@ -15,7 +15,7 @@
     "currency": "EUR",
     "capital": "Mariehamn",
     "languages": ["sv"],
-    "nameNative": "Åland"
+    "nativeName": "Åland"
   },
   "AL": {
     "name": "Albania",
@@ -24,7 +24,7 @@
     "currency": "ALL",
     "capital": "Tirana",
     "languages": ["sq"],
-    "nameNative": "Shqipëria"
+    "nativeName": "Shqipëria"
   },
   "DZ": {
     "name": "Algeria",
@@ -33,7 +33,7 @@
     "currency": "DZD",
     "capital": "Algiers",
     "languages": ["ar"],
-    "nameNative": "الجزائر"
+    "nativeName": "الجزائر"
   },
   "AS": {
     "name": "American Samoa",
@@ -42,7 +42,7 @@
     "currency": "USD",
     "capital": "Pago Pago",
     "languages": ["en", "sm"],
-    "nameNative": "American Samoa"
+    "nativeName": "American Samoa"
   },
   "AD": {
     "name": "Andorra",
@@ -51,7 +51,7 @@
     "currency": "EUR",
     "capital": "Andorra la Vella",
     "languages": ["ca"],
-    "nameNative": "Andorra"
+    "nativeName": "Andorra"
   },
   "AO": {
     "name": "Angola",
@@ -60,7 +60,7 @@
     "currency": "AOA",
     "capital": "Luanda",
     "languages": ["pt"],
-    "nameNative": "Angola"
+    "nativeName": "Angola"
   },
   "AI": {
     "name": "Anguilla",
@@ -69,7 +69,7 @@
     "currency": "XCD",
     "capital": "The Valley",
     "languages": ["en"],
-    "nameNative": "Anguilla"
+    "nativeName": "Anguilla"
   },
   "AQ": {
     "name": "Antarctica",
@@ -77,7 +77,7 @@
     "code": "+672",
     "capital": "",
     "languages": [],
-    "nameNative": "Antarctica"
+    "nativeName": "Antarctica"
   },
   "AG": {
     "name": "Antigua and Barbuda",
@@ -86,7 +86,7 @@
     "currency": "XCD",
     "capital": "Saint John's",
     "languages": ["en"],
-    "nameNative": "Antigua and Barbuda"
+    "nativeName": "Antigua and Barbuda"
   },
   "AR": {
     "name": "Argentina",
@@ -95,7 +95,7 @@
     "currency": "ARS",
     "capital": "Buenos Aires",
     "languages": ["es", "gn"],
-    "nameNative": "Argentina"
+    "nativeName": "Argentina"
   },
   "AM": {
     "name": "Armenia",
@@ -104,7 +104,7 @@
     "currency": "AMD",
     "capital": "Yerevan",
     "languages": ["hy", "ru"],
-    "nameNative": "Հայաստան"
+    "nativeName": "Հայաստան"
   },
   "AW": {
     "name": "Aruba",
@@ -113,7 +113,7 @@
     "currency": "AWG",
     "capital": "Oranjestad",
     "languages": ["nl", "pa"],
-    "nameNative": "Aruba"
+    "nativeName": "Aruba"
   },
   "AU": {
     "name": "Australia",
@@ -122,7 +122,7 @@
     "currency": "AUD",
     "capital": "Canberra",
     "languages": ["en"],
-    "nameNative": "Australia"
+    "nativeName": "Australia"
   },
   "AT": {
     "name": "Austria",
@@ -131,7 +131,7 @@
     "currency": "EUR",
     "capital": "Vienna",
     "languages": ["de"],
-    "nameNative": "Österreich"
+    "nativeName": "Österreich"
   },
   "AZ": {
     "name": "Azerbaijan",
@@ -140,7 +140,7 @@
     "currency": "AZN",
     "capital": "Baku",
     "languages": ["az"],
-    "nameNative": "Azərbaycan"
+    "nativeName": "Azərbaycan"
   },
   "BS": {
     "name": "Bahamas",
@@ -149,7 +149,7 @@
     "currency": "BSD",
     "capital": "Nassau",
     "languages": ["en"],
-    "nameNative": "Bahamas"
+    "nativeName": "Bahamas"
   },
   "BH": {
     "name": "Bahrain",
@@ -158,7 +158,7 @@
     "currency": "BHD",
     "capital": "Manama",
     "languages": ["ar"],
-    "nameNative": "‏البحرين"
+    "nativeName": "‏البحرين"
   },
   "BD": {
     "name": "Bangladesh",
@@ -167,7 +167,7 @@
     "currency": "BDT",
     "capital": "Dhaka",
     "languages": ["bn"],
-    "nameNative": "Bangladesh"
+    "nativeName": "Bangladesh"
   },
   "BB": {
     "name": "Barbados",
@@ -176,7 +176,7 @@
     "currency": "BBD",
     "capital": "Bridgetown",
     "languages": ["en"],
-    "nameNative": "Barbados"
+    "nativeName": "Barbados"
   },
   "BY": {
     "name": "Belarus",
@@ -185,7 +185,7 @@
     "currency": "BYR",
     "capital": "Minsk",
     "languages": ["be", "ru"],
-    "nameNative": "Белару́сь"
+    "nativeName": "Белару́сь"
   },
   "BE": {
     "name": "Belgium",
@@ -194,7 +194,7 @@
     "currency": "EUR",
     "capital": "Brussels",
     "languages": ["nl", "fr", "de"],
-    "nameNative": "België"
+    "nativeName": "België"
   },
   "BZ": {
     "name": "Belize",
@@ -203,7 +203,7 @@
     "currency": "BZD",
     "capital": "Belmopan",
     "languages": ["en", "es"],
-    "nameNative": "Belize"
+    "nativeName": "Belize"
   },
   "BJ": {
     "name": "Benin",
@@ -212,7 +212,7 @@
     "currency": "XOF",
     "capital": "Porto-Novo",
     "languages": ["fr"],
-    "nameNative": "Bénin"
+    "nativeName": "Bénin"
   },
   "BM": {
     "name": "Bermuda",
@@ -221,7 +221,7 @@
     "currency": "BMD",
     "capital": "Hamilton",
     "languages": ["en"],
-    "nameNative": "Bermuda"
+    "nativeName": "Bermuda"
   },
   "BT": {
     "name": "Bhutan",
@@ -230,7 +230,7 @@
     "currency": "BTN",
     "capital": "Thimphu",
     "languages": ["dz"],
-    "nameNative": "ʼbrug-yul"
+    "nativeName": "ʼbrug-yul"
   },
   "BO": {
     "name": "Bolivia, Plurinational State of bolivia",
@@ -239,7 +239,7 @@
     "currency": "BOB",
     "capital": "Sucre",
     "languages": ["es", "ay", "qu"],
-    "nameNative": "Bolivia"
+    "nativeName": "Bolivia"
   },
   "BA": {
     "name": "Bosnia and Herzegovina",
@@ -248,7 +248,7 @@
     "currency": "BAM",
     "capital": "Sarajevo",
     "languages": ["bs", "hr", "sr"],
-    "nameNative": "Bosna i Hercegovina"
+    "nativeName": "Bosna i Hercegovina"
   },
   "BW": {
     "name": "Botswana",
@@ -257,7 +257,7 @@
     "currency": "BWP",
     "capital": "Gaborone",
     "languages": ["en", "tn"],
-    "nameNative": "Botswana"
+    "nativeName": "Botswana"
   },
   "BV": {
     "name": "Bouvet Island",
@@ -266,7 +266,7 @@
     "currency": "NOK",
     "capital": "",
     "languages": ["no", "nb", "nn"],
-    "nameNative": "Bouvetøya"
+    "nativeName": "Bouvetøya"
   },
   "BR": {
     "name": "Brazil",
@@ -275,7 +275,7 @@
     "currency": "BRL",
     "capital": "Brasília",
     "languages": ["pt"],
-    "nameNative": "Brasil"
+    "nativeName": "Brasil"
   },
   "IO": {
     "name": "British Indian Ocean Territory",
@@ -284,7 +284,7 @@
     "currency": "USD",
     "capital": "Diego Garcia",
     "languages": ["en"],
-    "nameNative": "British Indian Ocean Territory"
+    "nativeName": "British Indian Ocean Territory"
   },
   "BN": {
     "name": "Brunei Darussalam",
@@ -293,7 +293,7 @@
     "currency": "BND",
     "capital": "Bandar Seri Begawan",
     "languages": ["ms"],
-    "nameNative": "Negara Brunei Darussalam"
+    "nativeName": "Negara Brunei Darussalam"
   },
   "BG": {
     "name": "Bulgaria",
@@ -302,7 +302,7 @@
     "currency": "BGN",
     "capital": "Sofia",
     "languages": ["bg"],
-    "nameNative": "България"
+    "nativeName": "България"
   },
   "BF": {
     "name": "Burkina Faso",
@@ -311,7 +311,7 @@
     "currency": "XOF",
     "capital": "Ouagadougou",
     "languages": ["fr", "ff"],
-    "nameNative": "Burkina Faso"
+    "nativeName": "Burkina Faso"
   },
   "BI": {
     "name": "Burundi",
@@ -320,7 +320,7 @@
     "currency": "BIF",
     "capital": "Bujumbura",
     "languages": ["fr", "rn"],
-    "nameNative": "Burundi"
+    "nativeName": "Burundi"
   },
   "KH": {
     "name": "Cambodia",
@@ -329,7 +329,7 @@
     "currency": "KHR",
     "capital": "Phnom Penh",
     "languages": ["km"],
-    "nameNative": "Kâmpŭchéa"
+    "nativeName": "Kâmpŭchéa"
   },
   "CM": {
     "name": "Cameroon",
@@ -338,7 +338,7 @@
     "currency": "XAF",
     "capital": "Yaoundé",
     "languages": ["en", "fr"],
-    "nameNative": "Cameroon"
+    "nativeName": "Cameroon"
   },
   "CA": {
     "name": "Canada",
@@ -347,7 +347,7 @@
     "currency": "CAD",
     "capital": "Ottawa",
     "languages": ["en", "fr"],
-    "nameNative": "Canada"
+    "nativeName": "Canada"
   },
   "CV": {
     "name": "Cape Verde",
@@ -356,7 +356,7 @@
     "currency": "CVE",
     "capital": "Praia",
     "languages": ["pt"],
-    "nameNative": "Cabo Verde"
+    "nativeName": "Cabo Verde"
   },
   "KY": {
     "name": "Cayman Islands",
@@ -365,7 +365,7 @@
     "currency": "KYD",
     "capital": "George Town",
     "languages": ["en"],
-    "nameNative": "Cayman Islands"
+    "nativeName": "Cayman Islands"
   },
   "CF": {
     "name": "Central African Republic",
@@ -374,7 +374,7 @@
     "currency": "XAF",
     "capital": "Bangui",
     "languages": ["fr", "sg"],
-    "nameNative": "Ködörösêse tî Bêafrîka"
+    "nativeName": "Ködörösêse tî Bêafrîka"
   },
   "TD": {
     "name": "Chad",
@@ -383,7 +383,7 @@
     "currency": "XAF",
     "capital": "N'Djamena",
     "languages": ["fr", "ar"],
-    "nameNative": "Tchad"
+    "nativeName": "Tchad"
   },
   "CL": {
     "name": "Chile",
@@ -392,7 +392,7 @@
     "currency": "CLP",
     "capital": "Santiago",
     "languages": ["es"],
-    "nameNative": "Chile"
+    "nativeName": "Chile"
   },
   "CN": {
     "name": "China",
@@ -401,7 +401,7 @@
     "currency": "CNY",
     "capital": "Beijing",
     "languages": ["zh"],
-    "nameNative": "中国"
+    "nativeName": "中国"
   },
   "CX": {
     "name": "Christmas Island",
@@ -410,7 +410,7 @@
     "currency": "AUD",
     "capital": "Flying Fish Cove",
     "languages": ["en"],
-    "nameNative": "Christmas Island"
+    "nativeName": "Christmas Island"
   },
   "CC": {
     "name": "Cocos (Keeling) Islands",
@@ -419,7 +419,7 @@
     "currency": "AUD",
     "capital": "West Island",
     "languages": ["en"],
-    "nameNative": "Cocos (Keeling) Islands"
+    "nativeName": "Cocos (Keeling) Islands"
   },
   "CO": {
     "name": "Colombia",
@@ -428,7 +428,7 @@
     "currency": "COP",
     "capital": "Bogotá",
     "languages": ["es"],
-    "nameNative": "Colombia"
+    "nativeName": "Colombia"
   },
   "KM": {
     "name": "Comoros",
@@ -437,7 +437,7 @@
     "currency": "KMF",
     "capital": "Moroni",
     "languages": ["ar", "fr"],
-    "nameNative": "Komori"
+    "nativeName": "Komori"
   },
   "CG": {
     "name": "Congo",
@@ -446,7 +446,7 @@
     "currency": "XAF",
     "capital": "Brazzaville",
     "languages": ["fr", "ln"],
-    "nameNative": "République du Congo"
+    "nativeName": "République du Congo"
   },
   "CD": {
     "name": "Congo, The Democratic Republic of the Congo",
@@ -455,7 +455,7 @@
     "currency": "CDF",
     "capital": "Kinshasa",
     "languages": ["fr", "ln", "kg", "sw", "lu"],
-    "nameNative": "République démocratique du Congo"
+    "nativeName": "République démocratique du Congo"
   },
   "CK": {
     "name": "Cook Islands",
@@ -464,7 +464,7 @@
     "currency": "NZD",
     "capital": "Avarua",
     "languages": ["en"],
-    "nameNative": "Cook Islands"
+    "nativeName": "Cook Islands"
   },
   "CR": {
     "name": "Costa Rica",
@@ -473,7 +473,7 @@
     "currency": "CRC",
     "capital": "San José",
     "languages": ["es"],
-    "nameNative": "Costa Rica"
+    "nativeName": "Costa Rica"
   },
   "CI": {
     "name": "Cote d'Ivoire",
@@ -482,7 +482,7 @@
     "currency": "XOF",
     "capital": "Yamoussoukro",
     "languages": ["fr"],
-    "nameNative": "Côte d'Ivoire"
+    "nativeName": "Côte d'Ivoire"
   },
   "HR": {
     "name": "Croatia",
@@ -491,7 +491,7 @@
     "currency": "HRK",
     "capital": "Zagreb",
     "languages": ["hr"],
-    "nameNative": "Hrvatska"
+    "nativeName": "Hrvatska"
   },
   "CU": {
     "name": "Cuba",
@@ -500,7 +500,7 @@
     "currency": "CUP",
     "capital": "Havana",
     "languages": ["es"],
-    "nameNative": "Cuba"
+    "nativeName": "Cuba"
   },
   "CY": {
     "name": "Cyprus",
@@ -509,7 +509,7 @@
     "currency": "EUR",
     "capital": "Nicosia",
     "languages": ["el", "tr", "hy"],
-    "nameNative": "Κύπρος"
+    "nativeName": "Κύπρος"
   },
   "CZ": {
     "name": "Czech Republic",
@@ -518,7 +518,7 @@
     "currency": "CZK",
     "capital": "Prague",
     "languages": ["cs", "sk"],
-    "nameNative": "Česká republika"
+    "nativeName": "Česká republika"
   },
   "DK": {
     "name": "Denmark",
@@ -527,7 +527,7 @@
     "currency": "DKK",
     "capital": "Copenhagen",
     "languages": ["da"],
-    "nameNative": "Danmark"
+    "nativeName": "Danmark"
   },
   "DJ": {
     "name": "Djibouti",
@@ -536,7 +536,7 @@
     "currency": "DJF",
     "capital": "Djibouti",
     "languages": ["fr", "ar"],
-    "nameNative": "Djibouti"
+    "nativeName": "Djibouti"
   },
   "DM": {
     "name": "Dominica",
@@ -545,7 +545,7 @@
     "currency": "XCD",
     "capital": "Roseau",
     "languages": ["en"],
-    "nameNative": "Dominica"
+    "nativeName": "Dominica"
   },
   "DO": {
     "name": "Dominican Republic",
@@ -554,7 +554,7 @@
     "currency": "DOP",
     "capital": "Santo Domingo",
     "languages": ["es"],
-    "nameNative": "República Dominicana"
+    "nativeName": "República Dominicana"
   },
   "EC": {
     "name": "Ecuador",
@@ -563,7 +563,7 @@
     "currency": "USD",
     "capital": "Quito",
     "languages": ["es"],
-    "nameNative": "Ecuador"
+    "nativeName": "Ecuador"
   },
   "EG": {
     "name": "Egypt",
@@ -572,7 +572,7 @@
     "currency": "EGP",
     "capital": "Cairo",
     "languages": ["ar"],
-    "nameNative": "مصر‎"
+    "nativeName": "مصر‎"
   },
   "SV": {
     "name": "El Salvador",
@@ -581,7 +581,7 @@
     "currency": "USD",
     "capital": "San Salvador",
     "languages": ["es"],
-    "nameNative": "El Salvador"
+    "nativeName": "El Salvador"
   },
   "GQ": {
     "name": "Equatorial Guinea",
@@ -590,7 +590,7 @@
     "currency": "XAF",
     "capital": "Malabo",
     "languages": ["es", "fr"],
-    "nameNative": "Guinea Ecuatorial"
+    "nativeName": "Guinea Ecuatorial"
   },
   "ER": {
     "name": "Eritrea",
@@ -599,7 +599,7 @@
     "currency": "ERN",
     "capital": "Asmara",
     "languages": ["ti", "ar", "en"],
-    "nameNative": "ኤርትራ"
+    "nativeName": "ኤርትራ"
   },
   "EE": {
     "name": "Estonia",
@@ -608,7 +608,7 @@
     "currency": "EUR",
     "capital": "Tallinn",
     "languages": ["et"],
-    "nameNative": "Eesti"
+    "nativeName": "Eesti"
   },
   "ET": {
     "name": "Ethiopia",
@@ -617,7 +617,7 @@
     "currency": "ETB",
     "capital": "Addis Ababa",
     "languages": ["am"],
-    "nameNative": "ኢትዮጵያ"
+    "nativeName": "ኢትዮጵያ"
   },
   "FK": {
     "name": "Falkland Islands (Malvinas)",
@@ -626,7 +626,7 @@
     "currency": "FKP",
     "capital": "Stanley",
     "languages": ["en"],
-    "nameNative": "Falkland Islands"
+    "nativeName": "Falkland Islands"
   },
   "FO": {
     "name": "Faroe Islands",
@@ -635,7 +635,7 @@
     "currency": "DKK",
     "capital": "Tórshavn",
     "languages": ["fo"],
-    "nameNative": "Føroyar"
+    "nativeName": "Føroyar"
   },
   "FJ": {
     "name": "Fiji",
@@ -644,7 +644,7 @@
     "currency": "FJD",
     "capital": "Suva",
     "languages": ["en", "fj", "hi", "ur"],
-    "nameNative": "Fiji"
+    "nativeName": "Fiji"
   },
   "FI": {
     "name": "Finland",
@@ -653,7 +653,7 @@
     "currency": "EUR",
     "capital": "Helsinki",
     "languages": ["fi", "sv"],
-    "nameNative": "Suomi"
+    "nativeName": "Suomi"
   },
   "FR": {
     "name": "France",
@@ -662,7 +662,7 @@
     "currency": "EUR",
     "capital": "Paris",
     "languages": ["fr"],
-    "nameNative": "France"
+    "nativeName": "France"
   },
   "GF": {
     "name": "French Guiana",
@@ -671,7 +671,7 @@
     "currency": "EUR",
     "capital": "Cayenne",
     "languages": ["fr"],
-    "nameNative": "Guyane française"
+    "nativeName": "Guyane française"
   },
   "PF": {
     "name": "French Polynesia",
@@ -680,7 +680,7 @@
     "currency": "XPF",
     "capital": "Papeetē",
     "languages": ["fr"],
-    "nameNative": "Polynésie française"
+    "nativeName": "Polynésie française"
   },
   "TF": {
     "name": "French Southern Territories",
@@ -689,7 +689,7 @@
     "currency": "EUR",
     "capital": "Port-aux-Français",
     "languages": ["fr"],
-    "nameNative": "Territoire des Terres australes et antarctiques fr"
+    "nativeName": "Territoire des Terres australes et antarctiques fr"
   },
   "GA": {
     "name": "Gabon",
@@ -698,7 +698,7 @@
     "currency": "XAF",
     "capital": "Libreville",
     "languages": ["fr"],
-    "nameNative": "Gabon"
+    "nativeName": "Gabon"
   },
   "GM": {
     "name": "Gambia",
@@ -707,7 +707,7 @@
     "currency": "GMD",
     "capital": "Banjul",
     "languages": ["en"],
-    "nameNative": "Gambia"
+    "nativeName": "Gambia"
   },
   "GE": {
     "name": "Georgia",
@@ -716,7 +716,7 @@
     "currency": "GEL",
     "capital": "Tbilisi",
     "languages": ["ka"],
-    "nameNative": "საქართველო"
+    "nativeName": "საქართველო"
   },
   "DE": {
     "name": "Germany",
@@ -725,7 +725,7 @@
     "currency": "EUR",
     "capital": "Berlin",
     "languages": ["de"],
-    "nameNative": "Deutschland"
+    "nativeName": "Deutschland"
   },
   "GH": {
     "name": "Ghana",
@@ -734,7 +734,7 @@
     "currency": "GHS",
     "capital": "Accra",
     "languages": ["en"],
-    "nameNative": "Ghana"
+    "nativeName": "Ghana"
   },
   "GI": {
     "name": "Gibraltar",
@@ -743,7 +743,7 @@
     "currency": "GIP",
     "capital": "Gibraltar",
     "languages": ["en"],
-    "nameNative": "Gibraltar"
+    "nativeName": "Gibraltar"
   },
   "GR": {
     "name": "Greece",
@@ -752,7 +752,7 @@
     "currency": "EUR",
     "capital": "Athens",
     "languages": ["el"],
-    "nameNative": "Ελλάδα"
+    "nativeName": "Ελλάδα"
   },
   "GL": {
     "name": "Greenland",
@@ -761,7 +761,7 @@
     "currency": "DKK",
     "capital": "Nuuk",
     "languages": ["kl"],
-    "nameNative": "Kalaallit Nunaat"
+    "nativeName": "Kalaallit Nunaat"
   },
   "GD": {
     "name": "Grenada",
@@ -770,7 +770,7 @@
     "currency": "XCD",
     "capital": "St. George's",
     "languages": ["en"],
-    "nameNative": "Grenada"
+    "nativeName": "Grenada"
   },
   "GP": {
     "name": "Guadeloupe",
@@ -779,7 +779,7 @@
     "currency": "EUR",
     "capital": "Basse-Terre",
     "languages": ["fr"],
-    "nameNative": "Guadeloupe"
+    "nativeName": "Guadeloupe"
   },
   "GU": {
     "name": "Guam",
@@ -788,7 +788,7 @@
     "currency": "USD",
     "capital": "Hagåtña",
     "languages": ["en", "ch", "es"],
-    "nameNative": "Guam"
+    "nativeName": "Guam"
   },
   "GT": {
     "name": "Guatemala",
@@ -797,7 +797,7 @@
     "currency": "GTQ",
     "capital": "Guatemala City",
     "languages": ["es"],
-    "nameNative": "Guatemala"
+    "nativeName": "Guatemala"
   },
   "GG": {
     "name": "Guernsey",
@@ -806,7 +806,7 @@
     "currency": "GBP",
     "capital": "St. Peter Port",
     "languages": ["en", "fr"],
-    "nameNative": "Guernsey"
+    "nativeName": "Guernsey"
   },
   "GN": {
     "name": "Guinea",
@@ -815,7 +815,7 @@
     "currency": "GNF",
     "capital": "Conakry",
     "languages": ["fr", "ff"],
-    "nameNative": "Guinée"
+    "nativeName": "Guinée"
   },
   "GW": {
     "name": "Guinea-Bissau",
@@ -824,7 +824,7 @@
     "currency": "XOF",
     "capital": "Bissau",
     "languages": ["pt"],
-    "nameNative": "Guiné-Bissau"
+    "nativeName": "Guiné-Bissau"
   },
   "GY": {
     "name": "Guyana",
@@ -833,7 +833,7 @@
     "currency": "GYD",
     "capital": "Georgetown",
     "languages": ["en"],
-    "nameNative": "Guyana"
+    "nativeName": "Guyana"
   },
   "HT": {
     "name": "Haiti",
@@ -842,7 +842,7 @@
     "currency": "HTG",
     "capital": "Port-au-Prince",
     "languages": ["fr", "ht"],
-    "nameNative": "Haïti"
+    "nativeName": "Haïti"
   },
   "HM": {
     "name": "Heard Island and Mcdonald Islands",
@@ -851,7 +851,7 @@
     "currency": "AUD",
     "capital": "",
     "languages": ["en"],
-    "nameNative": "Heard Island and McDonald Islands"
+    "nativeName": "Heard Island and McDonald Islands"
   },
   "VA": {
     "name": "Holy See (Vatican City State)",
@@ -860,7 +860,7 @@
     "currency": "EUR",
     "capital": "Vatican City",
     "languages": ["it", "la"],
-    "nameNative": "Vaticano"
+    "nativeName": "Vaticano"
   },
   "HN": {
     "name": "Honduras",
@@ -869,7 +869,7 @@
     "currency": "HNL",
     "capital": "Tegucigalpa",
     "languages": ["es"],
-    "nameNative": "Honduras"
+    "nativeName": "Honduras"
   },
   "HK": {
     "name": "Hong Kong",
@@ -878,7 +878,7 @@
     "currency": "HKD",
     "capital": "City of Victoria",
     "languages": ["zh", "en"],
-    "nameNative": "香港"
+    "nativeName": "香港"
   },
   "HU": {
     "name": "Hungary",
@@ -887,7 +887,7 @@
     "currency": "HUF",
     "capital": "Budapest",
     "languages": ["hu"],
-    "nameNative": "Magyarország"
+    "nativeName": "Magyarország"
   },
   "IS": {
     "name": "Iceland",
@@ -896,7 +896,7 @@
     "currency": "ISK",
     "capital": "Reykjavik",
     "languages": ["is"],
-    "nameNative": "Ísland"
+    "nativeName": "Ísland"
   },
   "IN": {
     "name": "India",
@@ -905,7 +905,7 @@
     "currency": "INR",
     "capital": "New Delhi",
     "languages": ["hi", "en"],
-    "nameNative": "भारत"
+    "nativeName": "भारत"
   },
   "ID": {
     "name": "Indonesia",
@@ -914,7 +914,7 @@
     "currency": "IDR",
     "capital": "Jakarta",
     "languages": ["id"],
-    "nameNative": "Indonesia"
+    "nativeName": "Indonesia"
   },
   "IR": {
     "name": "Iran, Islamic Republic of Persian Gulf",
@@ -923,7 +923,7 @@
     "currency": "IRR",
     "capital": "Tehran",
     "languages": ["fa"],
-    "nameNative": "ایران"
+    "nativeName": "ایران"
   },
   "IQ": {
     "name": "Iraq",
@@ -932,7 +932,7 @@
     "currency": "IQD",
     "capital": "Baghdad",
     "languages": ["ar", "ku"],
-    "nameNative": "العراق"
+    "nativeName": "العراق"
   },
   "IE": {
     "name": "Ireland",
@@ -941,7 +941,7 @@
     "currency": "EUR",
     "capital": "Dublin",
     "languages": ["ga", "en"],
-    "nameNative": "Éire"
+    "nativeName": "Éire"
   },
   "IM": {
     "name": "Isle of Man",
@@ -950,7 +950,7 @@
     "currency": "GBP",
     "capital": "Douglas",
     "languages": ["en", "gv"],
-    "nameNative": "Isle of Man"
+    "nativeName": "Isle of Man"
   },
   "IL": {
     "name": "Israel",
@@ -959,7 +959,7 @@
     "currency": "ILS",
     "capital": "Jerusalem",
     "languages": ["he", "ar"],
-    "nameNative": "יִשְׂרָאֵל"
+    "nativeName": "יִשְׂרָאֵל"
   },
   "IT": {
     "name": "Italy",
@@ -968,7 +968,7 @@
     "currency": "EUR",
     "capital": "Rome",
     "languages": ["it"],
-    "nameNative": "Italia"
+    "nativeName": "Italia"
   },
   "JM": {
     "name": "Jamaica",
@@ -977,7 +977,7 @@
     "currency": "JMD",
     "capital": "Kingston",
     "languages": ["en"],
-    "nameNative": "Jamaica"
+    "nativeName": "Jamaica"
   },
   "JP": {
     "name": "Japan",
@@ -986,7 +986,7 @@
     "currency": "JPY",
     "capital": "Tokyo",
     "languages": ["ja"],
-    "nameNative": "日本"
+    "nativeName": "日本"
   },
   "JE": {
     "name": "Jersey",
@@ -995,7 +995,7 @@
     "currency": "GBP",
     "capital": "Saint Helier",
     "languages": ["en", "fr"],
-    "nameNative": "Jersey"
+    "nativeName": "Jersey"
   },
   "JO": {
     "name": "Jordan",
@@ -1004,7 +1004,7 @@
     "currency": "JOD",
     "capital": "Amman",
     "languages": ["ar"],
-    "nameNative": "الأردن"
+    "nativeName": "الأردن"
   },
   "KZ": {
     "name": "Kazakhstan",
@@ -1013,7 +1013,7 @@
     "currency": "KZT",
     "capital": "Astana",
     "languages": ["kk", "ru"],
-    "nameNative": "Қазақстан"
+    "nativeName": "Қазақстан"
   },
   "KE": {
     "name": "Kenya",
@@ -1022,7 +1022,7 @@
     "currency": "KES",
     "capital": "Nairobi",
     "languages": ["en", "sw"],
-    "nameNative": "Kenya"
+    "nativeName": "Kenya"
   },
   "KI": {
     "name": "Kiribati",
@@ -1031,7 +1031,7 @@
     "currency": "AUD",
     "capital": "South Tarawa",
     "languages": ["en"],
-    "nameNative": "Kiribati"
+    "nativeName": "Kiribati"
   },
   "KP": {
     "name": "Korea, Democratic People's Republic of Korea",
@@ -1040,7 +1040,7 @@
     "currency": "KPW",
     "capital": "Pyongyang",
     "languages": ["ko"],
-    "nameNative": "북한"
+    "nativeName": "북한"
   },
   "KR": {
     "name": "Korea, Republic of South Korea",
@@ -1049,7 +1049,7 @@
     "currency": "KRW",
     "capital": "Seoul",
     "languages": ["ko"],
-    "nameNative": "대한민국"
+    "nativeName": "대한민국"
   },
   "XK": {
     "name": "Kosovo",
@@ -1058,7 +1058,7 @@
     "currency": "EUR",
     "capital": "Pristina",
     "languages": ["sq", "sr"],
-    "nameNative": "Republika e Kosovës"
+    "nativeName": "Republika e Kosovës"
   },
   "KW": {
     "name": "Kuwait",
@@ -1067,7 +1067,7 @@
     "currency": "KWD",
     "capital": "Kuwait City",
     "languages": ["ar"],
-    "nameNative": "الكويت"
+    "nativeName": "الكويت"
   },
   "KG": {
     "name": "Kyrgyzstan",
@@ -1076,7 +1076,7 @@
     "currency": "KGS",
     "capital": "Bishkek",
     "languages": ["ky", "ru"],
-    "nameNative": "Кыргызстан"
+    "nativeName": "Кыргызстан"
   },
   "LA": {
     "name": "Laos",
@@ -1085,7 +1085,7 @@
     "currency": "LAK",
     "capital": "Vientiane",
     "languages": ["lo"],
-    "nameNative": "ສປປລາວ"
+    "nativeName": "ສປປລາວ"
   },
   "LV": {
     "name": "Latvia",
@@ -1094,7 +1094,7 @@
     "currency": "EUR",
     "capital": "Riga",
     "languages": ["lv"],
-    "nameNative": "Latvija"
+    "nativeName": "Latvija"
   },
   "LB": {
     "name": "Lebanon",
@@ -1103,7 +1103,7 @@
     "currency": "LBP",
     "capital": "Beirut",
     "languages": ["ar", "fr"],
-    "nameNative": "لبنان"
+    "nativeName": "لبنان"
   },
   "LS": {
     "name": "Lesotho",
@@ -1112,7 +1112,7 @@
     "currency": "LSL",
     "capital": "Maseru",
     "languages": ["en", "st"],
-    "nameNative": "Lesotho"
+    "nativeName": "Lesotho"
   },
   "LR": {
     "name": "Liberia",
@@ -1121,7 +1121,7 @@
     "currency": "LRD",
     "capital": "Monrovia",
     "languages": ["en"],
-    "nameNative": "Liberia"
+    "nativeName": "Liberia"
   },
   "LY": {
     "name": "Libyan Arab Jamahiriya",
@@ -1130,7 +1130,7 @@
     "currency": "LYD",
     "capital": "Tripoli",
     "languages": ["ar"],
-    "nameNative": "‏ليبيا"
+    "nativeName": "‏ليبيا"
   },
   "LI": {
     "name": "Liechtenstein",
@@ -1139,7 +1139,7 @@
     "currency": "CHF",
     "capital": "Vaduz",
     "languages": ["de"],
-    "nameNative": "Liechtenstein"
+    "nativeName": "Liechtenstein"
   },
   "LT": {
     "name": "Lithuania",
@@ -1148,7 +1148,7 @@
     "currency": "LTL",
     "capital": "Vilnius",
     "languages": ["lt"],
-    "nameNative": "Lietuva"
+    "nativeName": "Lietuva"
   },
   "LU": {
     "name": "Luxembourg",
@@ -1157,7 +1157,7 @@
     "currency": "EUR",
     "capital": "Luxembourg",
     "languages": ["fr", "de", "lb"],
-    "nameNative": "Luxembourg"
+    "nativeName": "Luxembourg"
   },
   "MO": {
     "name": "Macao",
@@ -1166,7 +1166,7 @@
     "currency": "MOP",
     "capital": "",
     "languages": ["zh", "pt"],
-    "nameNative": "澳門"
+    "nativeName": "澳門"
   },
   "MK": {
     "name": "Macedonia",
@@ -1175,7 +1175,7 @@
     "currency": "MKD",
     "capital": "Skopje",
     "languages": ["mk"],
-    "nameNative": "Македонија"
+    "nativeName": "Македонија"
   },
   "MG": {
     "name": "Madagascar",
@@ -1184,7 +1184,7 @@
     "currency": "MGA",
     "capital": "Antananarivo",
     "languages": ["fr", "mg"],
-    "nameNative": "Madagasikara"
+    "nativeName": "Madagasikara"
   },
   "MW": {
     "name": "Malawi",
@@ -1193,7 +1193,7 @@
     "currency": "MWK",
     "capital": "Lilongwe",
     "languages": ["en", "ny"],
-    "nameNative": "Malawi"
+    "nativeName": "Malawi"
   },
   "MY": {
     "name": "Malaysia",
@@ -1202,7 +1202,7 @@
     "currency": "MYR",
     "capital": "Kuala Lumpur",
     "languages": ["ms"],
-    "nameNative": "Malaysia"
+    "nativeName": "Malaysia"
   },
   "MV": {
     "name": "Maldives",
@@ -1211,7 +1211,7 @@
     "currency": "MVR",
     "capital": "Malé",
     "languages": ["dv"],
-    "nameNative": "Maldives"
+    "nativeName": "Maldives"
   },
   "ML": {
     "name": "Mali",
@@ -1220,7 +1220,7 @@
     "currency": "XOF",
     "capital": "Bamako",
     "languages": ["fr"],
-    "nameNative": "Mali"
+    "nativeName": "Mali"
   },
   "MT": {
     "name": "Malta",
@@ -1229,7 +1229,7 @@
     "currency": "EUR",
     "capital": "Valletta",
     "languages": ["mt", "en"],
-    "nameNative": "Malta"
+    "nativeName": "Malta"
   },
   "MH": {
     "name": "Marshall Islands",
@@ -1238,7 +1238,7 @@
     "currency": "USD",
     "capital": "Majuro",
     "languages": ["en", "mh"],
-    "nameNative": "M̧ajeļ"
+    "nativeName": "M̧ajeļ"
   },
   "MQ": {
     "name": "Martinique",
@@ -1247,7 +1247,7 @@
     "currency": "EUR",
     "capital": "Fort-de-France",
     "languages": ["fr"],
-    "nameNative": "Martinique"
+    "nativeName": "Martinique"
   },
   "MR": {
     "name": "Mauritania",
@@ -1256,7 +1256,7 @@
     "currency": "MRO",
     "capital": "Nouakchott",
     "languages": ["ar"],
-    "nameNative": "موريتانيا"
+    "nativeName": "موريتانيا"
   },
   "MU": {
     "name": "Mauritius",
@@ -1265,7 +1265,7 @@
     "currency": "MUR",
     "capital": "Port Louis",
     "languages": ["en"],
-    "nameNative": "Maurice"
+    "nativeName": "Maurice"
   },
   "YT": {
     "name": "Mayotte",
@@ -1274,7 +1274,7 @@
     "currency": "EUR",
     "capital": "Mamoudzou",
     "languages": ["fr"],
-    "nameNative": "Mayotte"
+    "nativeName": "Mayotte"
   },
   "MX": {
     "name": "Mexico",
@@ -1283,7 +1283,7 @@
     "currency": "MXN",
     "capital": "Mexico City",
     "languages": ["es"],
-    "nameNative": "México"
+    "nativeName": "México"
   },
   "FM": {
     "name": "Micronesia, Federated States of Micronesia",
@@ -1292,7 +1292,7 @@
     "currency": "USD",
     "capital": "Palikir",
     "languages": ["en"],
-    "nameNative": "Micronesia"
+    "nativeName": "Micronesia"
   },
   "MD": {
     "name": "Moldova",
@@ -1301,7 +1301,7 @@
     "currency": "MDL",
     "capital": "Chișinău",
     "languages": ["ro"],
-    "nameNative": "Moldova"
+    "nativeName": "Moldova"
   },
   "MC": {
     "name": "Monaco",
@@ -1310,7 +1310,7 @@
     "currency": "EUR",
     "capital": "Monaco",
     "languages": ["fr"],
-    "nameNative": "Monaco"
+    "nativeName": "Monaco"
   },
   "MN": {
     "name": "Mongolia",
@@ -1319,7 +1319,7 @@
     "currency": "MNT",
     "capital": "Ulan Bator",
     "languages": ["mn"],
-    "nameNative": "Монгол улс"
+    "nativeName": "Монгол улс"
   },
   "ME": {
     "name": "Montenegro",
@@ -1328,7 +1328,7 @@
     "currency": "EUR",
     "capital": "Podgorica",
     "languages": ["sr", "bs", "sq", "hr"],
-    "nameNative": "Црна Гора"
+    "nativeName": "Црна Гора"
   },
   "MS": {
     "name": "Montserrat",
@@ -1337,7 +1337,7 @@
     "currency": "XCD",
     "capital": "Plymouth",
     "languages": ["en"],
-    "nameNative": "Montserrat"
+    "nativeName": "Montserrat"
   },
   "MA": {
     "name": "Morocco",
@@ -1346,7 +1346,7 @@
     "currency": "MAD",
     "capital": "Rabat",
     "languages": ["ar"],
-    "nameNative": "المغرب"
+    "nativeName": "المغرب"
   },
   "MZ": {
     "name": "Mozambique",
@@ -1355,7 +1355,7 @@
     "currency": "MZN",
     "capital": "Maputo",
     "languages": ["pt"],
-    "nameNative": "Moçambique"
+    "nativeName": "Moçambique"
   },
   "MM": {
     "name": "Myanmar",
@@ -1364,7 +1364,7 @@
     "currency": "MMK",
     "capital": "Naypyidaw",
     "languages": ["my"],
-    "nameNative": "မြန်မာ"
+    "nativeName": "မြန်မာ"
   },
   "NA": {
     "name": "Namibia",
@@ -1373,7 +1373,7 @@
     "currency": "NAD",
     "capital": "Windhoek",
     "languages": ["en", "af"],
-    "nameNative": "Namibia"
+    "nativeName": "Namibia"
   },
   "NR": {
     "name": "Nauru",
@@ -1382,7 +1382,7 @@
     "currency": "AUD",
     "capital": "Yaren",
     "languages": ["en", "na"],
-    "nameNative": "Nauru"
+    "nativeName": "Nauru"
   },
   "NP": {
     "name": "Nepal",
@@ -1391,7 +1391,7 @@
     "currency": "NPR",
     "capital": "Kathmandu",
     "languages": ["ne"],
-    "nameNative": "नपल"
+    "nativeName": "नपल"
   },
   "NL": {
     "name": "Netherlands",
@@ -1400,7 +1400,7 @@
     "currency": "EUR",
     "capital": "Amsterdam",
     "languages": ["nl"],
-    "nameNative": "Nederland"
+    "nativeName": "Nederland"
   },
   "AN": { "name": "Netherlands Antilles", "flag": "", "code": "+599" },
   "NC": {
@@ -1410,7 +1410,7 @@
     "currency": "XPF",
     "capital": "Nouméa",
     "languages": ["fr"],
-    "nameNative": "Nouvelle-Calédonie"
+    "nativeName": "Nouvelle-Calédonie"
   },
   "NZ": {
     "name": "New Zealand",
@@ -1419,7 +1419,7 @@
     "currency": "NZD",
     "capital": "Wellington",
     "languages": ["en", "mi"],
-    "nameNative": "New Zealand"
+    "nativeName": "New Zealand"
   },
   "NI": {
     "name": "Nicaragua",
@@ -1428,7 +1428,7 @@
     "currency": "NIO",
     "capital": "Managua",
     "languages": ["es"],
-    "nameNative": "Nicaragua"
+    "nativeName": "Nicaragua"
   },
   "NE": {
     "name": "Niger",
@@ -1437,7 +1437,7 @@
     "currency": "XOF",
     "capital": "Niamey",
     "languages": ["fr"],
-    "nameNative": "Niger"
+    "nativeName": "Niger"
   },
   "NG": {
     "name": "Nigeria",
@@ -1446,7 +1446,7 @@
     "currency": "NGN",
     "capital": "Abuja",
     "languages": ["en"],
-    "nameNative": "Nigeria"
+    "nativeName": "Nigeria"
   },
   "NU": {
     "name": "Niue",
@@ -1455,7 +1455,7 @@
     "currency": "NZD",
     "capital": "Alofi",
     "languages": ["en"],
-    "nameNative": "Niuē"
+    "nativeName": "Niuē"
   },
   "NF": {
     "name": "Norfolk Island",
@@ -1464,7 +1464,7 @@
     "currency": "AUD",
     "capital": "Kingston",
     "languages": ["en"],
-    "nameNative": "Norfolk Island"
+    "nativeName": "Norfolk Island"
   },
   "MP": {
     "name": "Northern Mariana Islands",
@@ -1473,7 +1473,7 @@
     "currency": "USD",
     "capital": "Saipan",
     "languages": ["en", "ch"],
-    "nameNative": "Northern Mariana Islands"
+    "nativeName": "Northern Mariana Islands"
   },
   "NO": {
     "name": "Norway",
@@ -1482,7 +1482,7 @@
     "currency": "NOK",
     "capital": "Oslo",
     "languages": ["no", "nb", "nn"],
-    "nameNative": "Norge"
+    "nativeName": "Norge"
   },
   "OM": {
     "name": "Oman",
@@ -1491,7 +1491,7 @@
     "currency": "OMR",
     "capital": "Muscat",
     "languages": ["ar"],
-    "nameNative": "عمان"
+    "nativeName": "عمان"
   },
   "PK": {
     "name": "Pakistan",
@@ -1500,7 +1500,7 @@
     "currency": "PKR",
     "capital": "Islamabad",
     "languages": ["en", "ur"],
-    "nameNative": "Pakistan"
+    "nativeName": "Pakistan"
   },
   "PW": {
     "name": "Palau",
@@ -1509,7 +1509,7 @@
     "currency": "USD",
     "capital": "Ngerulmud",
     "languages": ["en"],
-    "nameNative": "Palau"
+    "nativeName": "Palau"
   },
   "PS": {
     "name": "Palestinian Territory, Occupied",
@@ -1518,7 +1518,7 @@
     "currency": "ILS",
     "capital": "Ramallah",
     "languages": ["ar"],
-    "nameNative": "فلسطين"
+    "nativeName": "فلسطين"
   },
   "PA": {
     "name": "Panama",
@@ -1527,7 +1527,7 @@
     "currency": "PAB",
     "capital": "Panama City",
     "languages": ["es"],
-    "nameNative": "Panamá"
+    "nativeName": "Panamá"
   },
   "PG": {
     "name": "Papua New Guinea",
@@ -1536,7 +1536,7 @@
     "currency": "PGK",
     "capital": "Port Moresby",
     "languages": ["en"],
-    "nameNative": "Papua Niugini"
+    "nativeName": "Papua Niugini"
   },
   "PY": {
     "name": "Paraguay",
@@ -1545,7 +1545,7 @@
     "currency": "PYG",
     "capital": "Asunción",
     "languages": ["es", "gn"],
-    "nameNative": "Paraguay"
+    "nativeName": "Paraguay"
   },
   "PE": {
     "name": "Peru",
@@ -1554,7 +1554,7 @@
     "currency": "PEN",
     "capital": "Lima",
     "languages": ["es"],
-    "nameNative": "Perú"
+    "nativeName": "Perú"
   },
   "PH": {
     "name": "Philippines",
@@ -1563,7 +1563,7 @@
     "currency": "PHP",
     "capital": "Manila",
     "languages": ["en"],
-    "nameNative": "Pilipinas"
+    "nativeName": "Pilipinas"
   },
   "PN": {
     "name": "Pitcairn",
@@ -1572,7 +1572,7 @@
     "currency": "NZD",
     "capital": "Adamstown",
     "languages": ["en"],
-    "nameNative": "Pitcairn Islands"
+    "nativeName": "Pitcairn Islands"
   },
   "PL": {
     "name": "Poland",
@@ -1581,7 +1581,7 @@
     "currency": "PLN",
     "capital": "Warsaw",
     "languages": ["pl"],
-    "nameNative": "Polska"
+    "nativeName": "Polska"
   },
   "PT": {
     "name": "Portugal",
@@ -1590,7 +1590,7 @@
     "currency": "EUR",
     "capital": "Lisbon",
     "languages": ["pt"],
-    "nameNative": "Portugal"
+    "nativeName": "Portugal"
   },
   "PR": {
     "name": "Puerto Rico",
@@ -1599,7 +1599,7 @@
     "currency": "USD",
     "capital": "San Juan",
     "languages": ["es", "en"],
-    "nameNative": "Puerto Rico"
+    "nativeName": "Puerto Rico"
   },
   "QA": {
     "name": "Qatar",
@@ -1608,7 +1608,7 @@
     "currency": "QAR",
     "capital": "Doha",
     "languages": ["ar"],
-    "nameNative": "قطر"
+    "nativeName": "قطر"
   },
   "RO": {
     "name": "Romania",
@@ -1617,7 +1617,7 @@
     "currency": "RON",
     "capital": "Bucharest",
     "languages": ["ro"],
-    "nameNative": "România"
+    "nativeName": "România"
   },
   "RU": {
     "name": "Russia",
@@ -1626,7 +1626,7 @@
     "currency": "RUB",
     "capital": "Moscow",
     "languages": ["ru"],
-    "nameNative": "Россия"
+    "nativeName": "Россия"
   },
   "RW": {
     "name": "Rwanda",
@@ -1635,7 +1635,7 @@
     "currency": "RWF",
     "capital": "Kigali",
     "languages": ["rw", "en", "fr"],
-    "nameNative": "Rwanda"
+    "nativeName": "Rwanda"
   },
   "RE": {
     "name": "Reunion",
@@ -1644,7 +1644,7 @@
     "currency": "EUR",
     "capital": "Saint-Denis",
     "languages": ["fr"],
-    "nameNative": "La Réunion"
+    "nativeName": "La Réunion"
   },
   "BL": {
     "name": "Saint Barthelemy",
@@ -1653,7 +1653,7 @@
     "currency": "EUR",
     "capital": "Gustavia",
     "languages": ["fr"],
-    "nameNative": "Saint-Barthélemy"
+    "nativeName": "Saint-Barthélemy"
   },
   "SH": {
     "name": "Saint Helena, Ascension and Tristan Da Cunha",
@@ -1662,7 +1662,7 @@
     "currency": "SHP",
     "capital": "Jamestown",
     "languages": ["en"],
-    "nameNative": "Saint Helena"
+    "nativeName": "Saint Helena"
   },
   "KN": {
     "name": "Saint Kitts and Nevis",
@@ -1671,7 +1671,7 @@
     "currency": "XCD",
     "capital": "Basseterre",
     "languages": ["en"],
-    "nameNative": "Saint Kitts and Nevis"
+    "nativeName": "Saint Kitts and Nevis"
   },
   "LC": {
     "name": "Saint Lucia",
@@ -1680,7 +1680,7 @@
     "currency": "XCD",
     "capital": "Castries",
     "languages": ["en"],
-    "nameNative": "Saint Lucia"
+    "nativeName": "Saint Lucia"
   },
   "MF": {
     "name": "Saint Martin",
@@ -1689,7 +1689,7 @@
     "currency": "EUR",
     "capital": "Marigot",
     "languages": ["en", "fr", "nl"],
-    "nameNative": "Saint-Martin"
+    "nativeName": "Saint-Martin"
   },
   "PM": {
     "name": "Saint Pierre and Miquelon",
@@ -1698,7 +1698,7 @@
     "currency": "EUR",
     "capital": "Saint-Pierre",
     "languages": ["fr"],
-    "nameNative": "Saint-Pierre-et-Miquelon"
+    "nativeName": "Saint-Pierre-et-Miquelon"
   },
   "VC": {
     "name": "Saint Vincent and the Grenadines",
@@ -1707,7 +1707,7 @@
     "currency": "XCD",
     "capital": "Kingstown",
     "languages": ["en"],
-    "nameNative": "Saint Vincent and the Grenadines"
+    "nativeName": "Saint Vincent and the Grenadines"
   },
   "WS": {
     "name": "Samoa",
@@ -1716,7 +1716,7 @@
     "currency": "WST",
     "capital": "Apia",
     "languages": ["sm", "en"],
-    "nameNative": "Samoa"
+    "nativeName": "Samoa"
   },
   "SM": {
     "name": "San Marino",
@@ -1725,7 +1725,7 @@
     "currency": "EUR",
     "capital": "City of San Marino",
     "languages": ["it"],
-    "nameNative": "San Marino"
+    "nativeName": "San Marino"
   },
   "ST": {
     "name": "Sao Tome and Principe",
@@ -1734,7 +1734,7 @@
     "currency": "STD",
     "capital": "São Tomé",
     "languages": ["pt"],
-    "nameNative": "São Tomé e Príncipe"
+    "nativeName": "São Tomé e Príncipe"
   },
   "SA": {
     "name": "Saudi Arabia",
@@ -1743,7 +1743,7 @@
     "currency": "SAR",
     "capital": "Riyadh",
     "languages": ["ar"],
-    "nameNative": "العربية السعودية"
+    "nativeName": "العربية السعودية"
   },
   "SN": {
     "name": "Senegal",
@@ -1752,7 +1752,7 @@
     "currency": "XOF",
     "capital": "Dakar",
     "languages": ["fr"],
-    "nameNative": "Sénégal"
+    "nativeName": "Sénégal"
   },
   "RS": {
     "name": "Serbia",
@@ -1761,7 +1761,7 @@
     "currency": "RSD",
     "capital": "Belgrade",
     "languages": ["sr"],
-    "nameNative": "Србија"
+    "nativeName": "Србија"
   },
   "SC": {
     "name": "Seychelles",
@@ -1770,7 +1770,7 @@
     "currency": "SCR",
     "capital": "Victoria",
     "languages": ["fr", "en"],
-    "nameNative": "Seychelles"
+    "nativeName": "Seychelles"
   },
   "SL": {
     "name": "Sierra Leone",
@@ -1779,7 +1779,7 @@
     "currency": "SLL",
     "capital": "Freetown",
     "languages": ["en"],
-    "nameNative": "Sierra Leone"
+    "nativeName": "Sierra Leone"
   },
   "SG": {
     "name": "Singapore",
@@ -1788,7 +1788,7 @@
     "currency": "SGD",
     "capital": "Singapore",
     "languages": ["en", "ms", "ta", "zh"],
-    "nameNative": "Singapore"
+    "nativeName": "Singapore"
   },
   "SK": {
     "name": "Slovakia",
@@ -1797,7 +1797,7 @@
     "currency": "EUR",
     "capital": "Bratislava",
     "languages": ["sk"],
-    "nameNative": "Slovensko"
+    "nativeName": "Slovensko"
   },
   "SI": {
     "name": "Slovenia",
@@ -1806,7 +1806,7 @@
     "currency": "EUR",
     "capital": "Ljubljana",
     "languages": ["sl"],
-    "nameNative": "Slovenija"
+    "nativeName": "Slovenija"
   },
   "SB": {
     "name": "Solomon Islands",
@@ -1815,7 +1815,7 @@
     "currency": "SBD",
     "capital": "Honiara",
     "languages": ["en"],
-    "nameNative": "Solomon Islands"
+    "nativeName": "Solomon Islands"
   },
   "SO": {
     "name": "Somalia",
@@ -1824,7 +1824,7 @@
     "currency": "SOS",
     "capital": "Mogadishu",
     "languages": ["so", "ar"],
-    "nameNative": "Soomaaliya"
+    "nativeName": "Soomaaliya"
   },
   "ZA": {
     "name": "South Africa",
@@ -1833,7 +1833,7 @@
     "currency": "ZAR",
     "capital": "Pretoria",
     "languages": ["af", "en", "nr", "st", "ss", "tn", "ts", "ve", "xh", "zu"],
-    "nameNative": "South Africa"
+    "nativeName": "South Africa"
   },
   "SS": {
     "name": "South Sudan",
@@ -1841,7 +1841,7 @@
     "code": "+211",
     "capital": "Juba",
     "languages": ["en"],
-    "nameNative": "South Sudan"
+    "nativeName": "South Sudan"
   },
   "GS": {
     "name": "South Georgia and the South Sandwich Islands",
@@ -1850,7 +1850,7 @@
     "currency": "GBP",
     "capital": "King Edward Point",
     "languages": ["en"],
-    "nameNative": "South Georgia"
+    "nativeName": "South Georgia"
   },
   "ES": {
     "name": "Spain",
@@ -1859,7 +1859,7 @@
     "currency": "EUR",
     "capital": "Madrid",
     "languages": ["es", "eu", "ca", "gl", "oc"],
-    "nameNative": "España"
+    "nativeName": "España"
   },
   "LK": {
     "name": "Sri Lanka",
@@ -1868,7 +1868,7 @@
     "currency": "LKR",
     "capital": "Colombo",
     "languages": ["si", "ta"],
-    "nameNative": "śrī laṃkāva"
+    "nativeName": "śrī laṃkāva"
   },
   "SD": {
     "name": "Sudan",
@@ -1877,7 +1877,7 @@
     "currency": "SDG",
     "capital": "Khartoum",
     "languages": ["ar", "en"],
-    "nameNative": "السودان"
+    "nativeName": "السودان"
   },
   "SR": {
     "name": "Suriname",
@@ -1886,7 +1886,7 @@
     "currency": "SRD",
     "capital": "Paramaribo",
     "languages": ["nl"],
-    "nameNative": "Suriname"
+    "nativeName": "Suriname"
   },
   "SJ": {
     "name": "Svalbard and Jan Mayen",
@@ -1895,7 +1895,7 @@
     "currency": "NOK",
     "capital": "Longyearbyen",
     "languages": ["no"],
-    "nameNative": "Svalbard og Jan Mayen"
+    "nativeName": "Svalbard og Jan Mayen"
   },
   "SZ": {
     "name": "Swaziland",
@@ -1904,7 +1904,7 @@
     "currency": "SZL",
     "capital": "Lobamba",
     "languages": ["en", "ss"],
-    "nameNative": "Swaziland"
+    "nativeName": "Swaziland"
   },
   "SE": {
     "name": "Sweden",
@@ -1913,7 +1913,7 @@
     "currency": "SEK",
     "capital": "Stockholm",
     "languages": ["sv"],
-    "nameNative": "Sverige"
+    "nativeName": "Sverige"
   },
   "CH": {
     "name": "Switzerland",
@@ -1922,7 +1922,7 @@
     "currency": "CHF",
     "capital": "Bern",
     "languages": ["de", "fr", "it"],
-    "nameNative": "Schweiz"
+    "nativeName": "Schweiz"
   },
   "SY": {
     "name": "Syrian Arab Republic",
@@ -1931,7 +1931,7 @@
     "currency": "SYP",
     "capital": "Damascus",
     "languages": ["ar"],
-    "nameNative": "سوريا"
+    "nativeName": "سوريا"
   },
   "TW": {
     "name": "Taiwan",
@@ -1940,7 +1940,7 @@
     "currency": "TWD",
     "capital": "Taipei",
     "languages": ["zh"],
-    "nameNative": "臺灣"
+    "nativeName": "臺灣"
   },
   "TJ": {
     "name": "Tajikistan",
@@ -1949,7 +1949,7 @@
     "currency": "TJS",
     "capital": "Dushanbe",
     "languages": ["tg", "ru"],
-    "nameNative": "Тоҷикистон"
+    "nativeName": "Тоҷикистон"
   },
   "TZ": {
     "name": "Tanzania, United Republic of Tanzania",
@@ -1958,7 +1958,7 @@
     "currency": "TZS",
     "capital": "Dodoma",
     "languages": ["sw", "en"],
-    "nameNative": "Tanzania"
+    "nativeName": "Tanzania"
   },
   "TH": {
     "name": "Thailand",
@@ -1967,7 +1967,7 @@
     "currency": "THB",
     "capital": "Bangkok",
     "languages": ["th"],
-    "nameNative": "ประเทศไทย"
+    "nativeName": "ประเทศไทย"
   },
   "TL": {
     "name": "Timor-Leste",
@@ -1976,7 +1976,7 @@
     "currency": "USD",
     "capital": "Dili",
     "languages": ["pt"],
-    "nameNative": "Timor-Leste"
+    "nativeName": "Timor-Leste"
   },
   "TG": {
     "name": "Togo",
@@ -1985,7 +1985,7 @@
     "currency": "XOF",
     "capital": "Lomé",
     "languages": ["fr"],
-    "nameNative": "Togo"
+    "nativeName": "Togo"
   },
   "TK": {
     "name": "Tokelau",
@@ -1994,7 +1994,7 @@
     "currency": "NZD",
     "capital": "Fakaofo",
     "languages": ["en"],
-    "nameNative": "Tokelau"
+    "nativeName": "Tokelau"
   },
   "TO": {
     "name": "Tonga",
@@ -2003,7 +2003,7 @@
     "currency": "TOP",
     "capital": "Nuku'alofa",
     "languages": ["en", "to"],
-    "nameNative": "Tonga"
+    "nativeName": "Tonga"
   },
   "TT": {
     "name": "Trinidad and Tobago",
@@ -2012,7 +2012,7 @@
     "currency": "TTD",
     "capital": "Port of Spain",
     "languages": ["en"],
-    "nameNative": "Trinidad and Tobago"
+    "nativeName": "Trinidad and Tobago"
   },
   "TN": {
     "name": "Tunisia",
@@ -2021,7 +2021,7 @@
     "currency": "TND",
     "capital": "Tunis",
     "languages": ["ar"],
-    "nameNative": "تونس"
+    "nativeName": "تونس"
   },
   "TR": {
     "name": "Turkey",
@@ -2030,7 +2030,7 @@
     "currency": "TRY",
     "capital": "Ankara",
     "languages": ["tr"],
-    "nameNative": "Türkiye"
+    "nativeName": "Türkiye"
   },
   "TM": {
     "name": "Turkmenistan",
@@ -2039,7 +2039,7 @@
     "currency": "TMT",
     "capital": "Ashgabat",
     "languages": ["tk", "ru"],
-    "nameNative": "Türkmenistan"
+    "nativeName": "Türkmenistan"
   },
   "TC": {
     "name": "Turks and Caicos Islands",
@@ -2048,7 +2048,7 @@
     "currency": "USD",
     "capital": "Cockburn Town",
     "languages": ["en"],
-    "nameNative": "Turks and Caicos Islands"
+    "nativeName": "Turks and Caicos Islands"
   },
   "TV": {
     "name": "Tuvalu",
@@ -2057,7 +2057,7 @@
     "currency": "AUD",
     "capital": "Funafuti",
     "languages": ["en"],
-    "nameNative": "Tuvalu"
+    "nativeName": "Tuvalu"
   },
   "UG": {
     "name": "Uganda",
@@ -2066,7 +2066,7 @@
     "currency": "UGX",
     "capital": "Kampala",
     "languages": ["en", "sw"],
-    "nameNative": "Uganda"
+    "nativeName": "Uganda"
   },
   "UA": {
     "name": "Ukraine",
@@ -2075,7 +2075,7 @@
     "currency": "UAH",
     "capital": "Kyiv",
     "languages": ["uk"],
-    "nameNative": "Україна"
+    "nativeName": "Україна"
   },
   "AE": {
     "name": "United Arab Emirates",
@@ -2084,7 +2084,7 @@
     "currency": "AED",
     "capital": "Abu Dhabi",
     "languages": ["ar"],
-    "nameNative": "دولة الإمارات العربية المتحدة"
+    "nativeName": "دولة الإمارات العربية المتحدة"
   },
   "GB": {
     "name": "United Kingdom",
@@ -2093,7 +2093,7 @@
     "currency": "GBP",
     "capital": "London",
     "languages": ["en"],
-    "nameNative": "United Kingdom"
+    "nativeName": "United Kingdom"
   },
   "US": {
     "name": "United States",
@@ -2102,7 +2102,7 @@
     "currency": "USD",
     "capital": "Washington D.C.",
     "languages": ["en"],
-    "nameNative": "United States"
+    "nativeName": "United States"
   },
   "UY": {
     "name": "Uruguay",
@@ -2111,7 +2111,7 @@
     "currency": "UYU",
     "capital": "Montevideo",
     "languages": ["es"],
-    "nameNative": "Uruguay"
+    "nativeName": "Uruguay"
   },
   "UZ": {
     "name": "Uzbekistan",
@@ -2120,7 +2120,7 @@
     "currency": "UZS",
     "capital": "Tashkent",
     "languages": ["uz", "ru"],
-    "nameNative": "O‘zbekiston"
+    "nativeName": "O‘zbekiston"
   },
   "VU": {
     "name": "Vanuatu",
@@ -2129,7 +2129,7 @@
     "currency": "VUV",
     "capital": "Port Vila",
     "languages": ["bi", "en", "fr"],
-    "nameNative": "Vanuatu"
+    "nativeName": "Vanuatu"
   },
   "VE": {
     "name": "Venezuela, Bolivarian Republic of Venezuela",
@@ -2138,7 +2138,7 @@
     "currency": "VEF",
     "capital": "Caracas",
     "languages": ["es"],
-    "nameNative": "Venezuela"
+    "nativeName": "Venezuela"
   },
   "VN": {
     "name": "Vietnam",
@@ -2147,7 +2147,7 @@
     "currency": "VND",
     "capital": "Hanoi",
     "languages": ["vi"],
-    "nameNative": "Việt Nam"
+    "nativeName": "Việt Nam"
   },
   "VG": {
     "name": "Virgin Islands, British",
@@ -2156,7 +2156,7 @@
     "currency": "USD",
     "capital": "Road Town",
     "languages": ["en"],
-    "nameNative": "British Virgin Islands"
+    "nativeName": "British Virgin Islands"
   },
   "VI": {
     "name": "Virgin Islands, U.S.",
@@ -2165,7 +2165,7 @@
     "currency": "USD",
     "capital": "Charlotte Amalie",
     "languages": ["en"],
-    "nameNative": "United States Virgin Islands"
+    "nativeName": "United States Virgin Islands"
   },
   "WF": {
     "name": "Wallis and Futuna",
@@ -2174,7 +2174,7 @@
     "currency": "XPF",
     "capital": "Mata-Utu",
     "languages": ["fr"],
-    "nameNative": "Wallis et Futuna"
+    "nativeName": "Wallis et Futuna"
   },
   "YE": {
     "name": "Yemen",
@@ -2183,7 +2183,7 @@
     "currency": "YER",
     "capital": "Sana'a",
     "languages": ["ar"],
-    "nameNative": "اليَمَن"
+    "nativeName": "اليَمَن"
   },
   "ZM": {
     "name": "Zambia",
@@ -2192,7 +2192,7 @@
     "currency": "ZMK",
     "capital": "Lusaka",
     "languages": ["en"],
-    "nameNative": "Zambia"
+    "nativeName": "Zambia"
   },
   "ZW": {
     "name": "Zimbabwe",
@@ -2201,6 +2201,6 @@
     "currency": "ZWL",
     "capital": "Harare",
     "languages": ["en", "sn", "nd"],
-    "nameNative": "Zimbabwe"
+    "nativeName": "Zimbabwe"
   }
 }

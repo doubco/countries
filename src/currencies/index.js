@@ -226,10 +226,17 @@ export default {
   simpleList: currencyListSimple,
   lite: {
     data: currenciesLite,
+    list: currencyListLite,
     simpleList: currencyListSimple,
-    list: {
-      complete: currencyListLite,
-      simple: currencyListLiteSimple,
+  },
+  graphql: {
+    data: currencies,
+    list: currencyList,
+    simpleList: currencyListSimple,
+    lite: {
+      data: currenciesLite,
+      list: currencyListLite,
+      simpleList: currencyListSimple,
     },
   },
 };

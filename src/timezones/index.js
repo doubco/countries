@@ -58,11 +58,35 @@ export const timezoneListLite = timezonesLite.map((key) => {
   };
 });
 
+const convertKey = (key) => key.toUpperCase().replace("/", "__");
+
+const exportDataAsGraphQLEnum = (data) => {
+  let x = {};
+  Object.keys(data).forEach((key) => {
+    x[convertKey(key)] = data[key];
+  });
+  return x;
+};
+const exportListAsGraphQLEnum = (list) => {
+  return list.map((i) => ({
+    _id: convertKey(i._id),
+    label: i.label,
+  }));
+};
+
 export default {
   data: timezones,
   list: timezoneList,
   lite: {
     data: timezonesLite,
     list: timezoneListLite,
+  },
+  graphql: {
+    data: exportDataAsGraphQLEnum(timezones),
+    list: exportListAsGraphQLEnum(timezoneList),
+    lite: {
+      data: exportDataAsGraphQLEnum(timezonesLite),
+      list: exportListAsGraphQLEnum(timezoneListLite),
+    },
   },
 };

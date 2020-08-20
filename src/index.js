@@ -9,3 +9,12 @@ export const countryList = Object.keys(countries).map((key) => {
     label: `${l.name}`,
   };
 });
+
+export default {
+  data: countries,
+  list: countryList,
+  graphql: {
+    data: countries,
+    list: countryList,
+  },
+};

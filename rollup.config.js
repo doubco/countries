@@ -148,4 +148,32 @@ export default [
       commonjs(),
     ],
   },
+  {
+    input: "./src/graphql/index.js",
+    output: [
+      {
+        file: pkg.graphql.main,
+        format: "cjs",
+        sourcemap: true,
+        exports: "named",
+      },
+      {
+        file: pkg.graphql.module,
+        format: "es",
+        sourcemap: true,
+        exports: "named",
+      },
+    ],
+    plugins: [
+      external(),
+      json(),
+      url(),
+      babel({
+        babelHelpers: "bundled",
+        exclude: "node_modules/**",
+      }),
+      resolve(),
+      commonjs(),
+    ],
+  },
 ];

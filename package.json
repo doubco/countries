@@ -6,6 +6,11 @@
   "main": "lib/index.js",
   "commonjs": "lib/index.cjs.js",
   "module": "lib/index.es.js",
+  "graphql": {
+    "main": "lib/graphql/index.js",
+    "commonjs": "lib/graphql/index.cjs.js",
+    "module": "lib/graphql/index.es.js"
+  },
   "timezones": {
     "main": "lib/timezones/index.js",
     "commonjs": "lib/timezones/index.cjs.js",
@@ -75,7 +80,8 @@
     "@rollup/plugin-commonjs": "^15.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^9.0.0",
-    "@rollup/plugin-url": "^5.0.1"
+    "@rollup/plugin-url": "^5.0.1",
+    "graphql-tag": "^2.11.0"
   },
   "prettier": {
     "arrowParens": "always",

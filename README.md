@@ -10,11 +10,13 @@ yarn add @doubco/countries
 
 ## Usage
 
-### Get country data
+> ⚠️ GraphQL versions' has matching object `key` and list `_id` with type definations.
 
-#### `data`
+### Countries
 
-##### countries
+#### Data Structure
+
+##### `countries` example
 
 ```json
 {
@@ -26,13 +28,13 @@ yarn add @doubco/countries
     "currency": "TRY",
     "capital": "Ankara",
     "languages": ["tr"],
-    "nameNative": "Türkiye"
+    "nativeName": "Türkiye"
   },
   ...
 }
 ```
 
-##### countryList
+##### `countryList` example
 
 ```json
 [
@@ -45,23 +47,31 @@ yarn add @doubco/countries
 ]
 ```
 
-#### `es6`
+#### Import Statements
 
 ```js
 import { countries, countryList } from "@doubco/countries";
+
+// or
+
+import countries from "@doubco/countries";
+
+// default
+// countries.data
+// countries.list
+
+// graphql alt.
+// countries.graphql.data
+// countries.graphql.list
 ```
 
-#### `nodejs`
+---
 
-```js
-const { countries, countryList } = require("@doubco/countries");
-```
+### Locales
 
-### Get locale data
+#### Data Structure
 
-#### `data`
-
-##### locales
+##### `locales` example
 
 ```json
 {
@@ -71,7 +81,7 @@ const { countries, countryList } = require("@doubco/countries");
 }
 ```
 
-##### localeList
+##### `localeList` example
 
 ```json
 [
@@ -84,23 +94,31 @@ const { countries, countryList } = require("@doubco/countries");
 ]
 ```
 
-#### `es6`
+#### Import Statements
 
 ```js
 import { locales, localeList } from "@doubco/countries/locales";
+
+// or
+
+import locales from "@doubco/countries/locales";
+
+// default
+// locales.data
+// locales.list
+
+// graphql alt.
+// locales.graphql.data
+// locales.graphql.list
 ```
 
-#### `nodejs`
+---
 
-```js
-const { locales, localeList } = require("@doubco/countries/locales");
-```
+### Languages
 
-### Get language data
+#### Data Structure
 
-#### `data`
-
-##### languages
+##### `languages` example
 
 ```json
 {
@@ -113,7 +131,7 @@ const { locales, localeList } = require("@doubco/countries/locales");
 }
 ```
 
-##### languageList
+##### `languageList` example
 
 ```json
 [
@@ -126,23 +144,31 @@ const { locales, localeList } = require("@doubco/countries/locales");
 ]
 ```
 
-#### `es6`
+#### Import Statements
 
 ```js
 import { languages, languageList } from "@doubco/countries/languages";
+
+// or
+
+import languages from "@doubco/countries/languages";
+
+// default
+// languages.data
+// languages.list
+
+// graphql alt.
+// languages.graphql.data
+// languages.graphql.list
 ```
 
-#### `nodejs`
+---
 
-```js
-const { languages, languageList } = require("@doubco/countries/languages");
-```
+### Currencies
 
-### Get currency data
+#### Data Structure
 
-#### `data`
-
-##### currencies
+##### `currencies` example
 
 ```json
 {
@@ -152,14 +178,16 @@ const { languages, languageList } = require("@doubco/countries/languages");
     "nativeSymbol": "\u20BA",
     "decimalDigits": 2,
     "name": "Turkish Lira",
-    "nameNative": "Türk Lirası",
+    "nativeName": "Türk Lirası",
     "namePlural": "Turkish Lira"
   },
   ...
 }
 ```
 
-##### currencyList
+> ⚠️ nativeName is only available on some currencies.
+
+##### `currencyList` example
 
 ```json
 [
@@ -172,7 +200,7 @@ const { languages, languageList } = require("@doubco/countries/languages");
 ]
 ```
 
-##### currencyListLite
+##### `currencyListLite` example
 
 ```json
 [
@@ -185,7 +213,7 @@ const { languages, languageList } = require("@doubco/countries/languages");
 ]
 ```
 
-#### `es6`
+#### Import Statements
 
 ```js
 import {
@@ -196,26 +224,39 @@ import {
   currencyListLite,
   currencyListLiteSimple,
 } from "@doubco/countries/currencies";
+
+import currencies from "@doubco/countries/currencies";
+
+// default
+// currencies.data;
+// currencies.list;
+// currencies.simpleList;
+
+// lite
+// currencies.lite.data;
+// currencies.lite.list;
+// currencies.lite.simpleList;
+
+// graphql alt.
+// currencies.graphql.data;
+// currencies.graphql.list;
+// currencies.graphql.simpleList;
+// currencies.graphql.lite.data;
+// currencies.graphql.lite.list;
+// currencies.graphql.lite.simpleList;
 ```
 
-> `currenciesSafe`, `currencyListSafe`, `currencyListLiteSafe` includes only currencies supported by most currency convertion APIs.
+> Simple list versions' uses `key` as `label`.
 
-#### `nodejs`
+> Lite versions' includes only currencies supported by most currency convertion APIs.
 
-```js
-const {
-  currencies,
-  currencyList,
-  currencyListSimple,
-  currenciesLite,
-  currencyListLite,
-  currencyListLiteSimple,
-} = require("@doubco/countries/currencies");
-```
+---
 
-### Get timezone data
+### Timezones
 
-##### timezones
+#### Data Structure
+
+##### `timezones` example
 
 ```json
 {
@@ -225,14 +266,14 @@ const {
     "nativeSymbol": "\u20BA",
     "decimalDigits": 2,
     "name": "Turkish Lira",
-    "nameNative": "Türk Lirası",
+    "nativeName": "Türk Lirası",
     "namePlural": "Turkish Lira"
   },
   ...
 }
 ```
 
-##### timezoneList
+##### `timezoneList` example
 
 ```json
 [
@@ -245,17 +286,83 @@ const {
 ]
 ```
 
-#### `es6`
+#### Import Statements
 
 ```js
 import { timezones, timezoneList } from "@doubco/countries/timezones";
+
+// or
+
+import timezones from "@doubco/countries/timezones";
+
+// default
+// timezones.data
+// timezones.list
+
+// lite
+// timezones.lite.data
+// timezones.lite.list
+
+// graphql alt.
+// timezones.graphql.data
+// timezones.graphql.list
+// timezones.graphql.lite.data
+// timezones.graphql.lite.list
+```
+
+> Lite versions only includes one time zone once.
+
+---
+
+## Usage with GraphQL
+
+This library also exposes GraphQL resolvers and type definations.
+
+#### `es6`
+
+```js
+import Countries from "@doubco/countries/graphql";
+
+export default {
+  typeDefs: [
+    Countries.typeDefs,
+    Auth.typeDefs,
+    User.typeDefs,
+    Log.typeDefs,
+  ...
+  ],
+  resolvers: merge(
+    Countries.resolvers,
+    Auth.resolvers,
+    User.resolvers,
+    ...
+  ),
+};
 ```
 
 #### `nodejs`
 
 ```js
-const { timezones, timezoneList } = require("@doubco/countries/timezones");
+const  = require("@doubco/countries/graphql");
+
+module.exports = {
+  typeDefs: [
+    Countries.typeDefs, // this is it.
+    Auth.typeDefs,
+    User.typeDefs,
+    Log.typeDefs,
+  ...
+  ],
+  resolvers: merge(
+    Countries.resolvers, // this is it.
+    Auth.resolvers,
+    User.resolvers,
+    ...
+  ),
+};
 ```
+
+> This usage is for Apollo Server, you can use similar approach on other frameworks.
 
 ---
 
