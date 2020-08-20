@@ -1,5 +1,5 @@
 {
-  "name": "countries",
+  "name": "@doubco/countries",
   "version": "1.0.0",
   "description": "Country, currency, language and time zone data formated as JSON",
   "license": "MIT",
