@@ -1,0 +1,84 @@
+{
+  "name": "countries",
+  "version": "1.0.0",
+  "description": "Country, currency, language and time zone data formated as JSON",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "commonjs": "lib/index.cjs.js",
+  "module": "lib/index.es.js",
+  "timezones": {
+    "main": "lib/timezones/index.js",
+    "commonjs": "lib/timezones/index.cjs.js",
+    "module": "lib/timezones/index.es.js"
+  },
+  "currencies": {
+    "main": "lib/currencies/index.js",
+    "commonjs": "lib/currencies/index.cjs.js",
+    "module": "lib/currencies/index.es.js"
+  },
+  "languages": {
+    "main": "lib/languages/index.js",
+    "commonjs": "lib/languages/index.cjs.js",
+    "module": "lib/languages/index.es.js"
+  },
+  "locales": {
+    "main": "lib/locales/index.js",
+    "commonjs": "lib/locales/index.cjs.js",
+    "module": "lib/locales/index.es.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "country",
+    "countries",
+    "locale",
+    "locales",
+    "languages",
+    "language",
+    "timezone",
+    "timezones",
+    "currency",
+    "currencies",
+    "graphql",
+    "json"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-url": "^2.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/doubco/countries/issues"
+  },
+  "homepage": "https://github.com/doubco/countries#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@rollup/plugin-babel": "^5.2.0",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-url": "^5.0.1"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "trailingComma": "all"
+  }
+}
