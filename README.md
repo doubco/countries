@@ -14,7 +14,7 @@ yarn add @doubco/countries
 
 #### `data`
 
-##### Raw
+##### countries
 
 ```json
 {
@@ -32,7 +32,7 @@ yarn add @doubco/countries
 }
 ```
 
-##### List
+##### countryList
 
 ```json
 [
@@ -61,7 +61,7 @@ const { countries, countryList } = require("@doubco/countries");
 
 #### `data`
 
-##### Raw
+##### locales
 
 ```json
 {
@@ -71,7 +71,7 @@ const { countries, countryList } = require("@doubco/countries");
 }
 ```
 
-##### List
+##### localeList
 
 ```json
 [
@@ -100,7 +100,7 @@ const { locales, localeList } = require("@doubco/countries/locales");
 
 #### `data`
 
-##### Raw
+##### languages
 
 ```json
 {
@@ -113,7 +113,7 @@ const { locales, localeList } = require("@doubco/countries/locales");
 }
 ```
 
-##### List
+##### languageList
 
 ```json
 [
@@ -142,21 +142,24 @@ const { languages, languageList } = require("@doubco/countries/languages");
 
 #### `data`
 
-##### Raw
+##### currencies
 
 ```json
 {
   ...,
-  "TRY":{
-    "name":"Turkish Lira",
-    "nativeName":"Türk Lirası",
-    "symbol":"₺"
-  }
+  "TRY": {
+    "symbol": "TRY",
+    "nativeSymbol": "\u20BA",
+    "decimalDigits": 2,
+    "name": "Turkish Lira",
+    "nameNative": "Türk Lirası",
+    "namePlural": "Turkish Lira"
+  },
   ...
 }
 ```
 
-##### List
+##### currencyList
 
 ```json
 [
@@ -169,7 +172,7 @@ const { languages, languageList } = require("@doubco/countries/languages");
 ]
 ```
 
-##### List Lite
+##### currencyListLite
 
 ```json
 [
@@ -187,30 +190,60 @@ const { languages, languageList } = require("@doubco/countries/languages");
 ```js
 import {
   currencies,
-  currenciesSafe,
   currencyList,
-  currenciesListLite,
-  currenciesListSafe,
-  currenciesListLiteSafe,
+  currencyListSimple,
+  currenciesLite,
+  currencyListLite,
+  currencyListLiteSimple,
 } from "@doubco/countries/currencies";
 ```
 
-> `XXXSafe` includes only currencies supported by most currency convertion APIs.
+> `currenciesSafe`, `currencyListSafe`, `currencyListLiteSafe` includes only currencies supported by most currency convertion APIs.
 
 #### `nodejs`
 
 ```js
 const {
   currencies,
-  currenciesSafe,
   currencyList,
-  currenciesListLite,
-  currenciesListSafe,
-  currenciesListLiteSafe,
+  currencyListSimple,
+  currenciesLite,
+  currencyListLite,
+  currencyListLiteSimple,
 } = require("@doubco/countries/currencies");
 ```
 
 ### Get timezone data
+
+##### timezones
+
+```json
+{
+  ...,
+  "TRY": {
+    "symbol": "TRY",
+    "nativeSymbol": "\u20BA",
+    "decimalDigits": 2,
+    "name": "Turkish Lira",
+    "nameNative": "Türk Lirası",
+    "namePlural": "Turkish Lira"
+  },
+  ...
+}
+```
+
+##### timezoneList
+
+```json
+[
+  ...
+  {
+    "_id": "TRY",
+    "label": "Turkish Lira (₺)",
+  },
+  ...
+]
+```
 
 #### `es6`
 

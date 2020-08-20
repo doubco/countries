@@ -1,8 +1,27 @@
 import data from "./data.json";
+// Default
 
 export const currencies = data;
 
-const safeToConvertion = [
+export const currencyList = currencies.map((key) => {
+  let c = currencies[key];
+  return {
+    _id: key,
+    label: `${c.name} (${c.nativeSymbol})`,
+  };
+});
+
+export const currencyListSimple = currencies.map((key) => {
+  let c = currencies[key];
+  return {
+    _id: key,
+    label: key,
+  };
+});
+
+// Lite
+
+const liteSource = [
   "AED",
   "AFN",
   "ALL",
@@ -173,24 +192,16 @@ const safeToConvertion = [
   "ZWL",
 ];
 
-let currenciesSafeRaw = {};
+let lite = {};
 
-safeToConvertion.forEach((key) => {
-  currenciesSafeRaw[key] = currencies[key];
+liteSource.forEach((key) => {
+  lite[key] = currencies[key];
 });
 
-export const currenciesSafe = currenciesSafeRaw;
+export const currenciesLite = lite;
 
-export const currenciesList = currencies.map((key) => {
-  let c = currencies[key];
-  return {
-    _id: key,
-    label: `${c.name} (${c.nativeSymbol})`,
-  };
-});
-
-export const currenciesListSafe = currencies
-  .filter((key) => safeToConvertion.includes(key))
+export const currencyListLite = currencies
+  .filter((key) => currenciesLite.includes(key))
   .map((key) => {
     let c = currencies[key];
     return {
@@ -199,15 +210,8 @@ export const currenciesListSafe = currencies
     };
   });
 
-export const currenciesListLite = currencies.map((key) => {
-  return {
-    _id: key,
-    label: key,
-  };
-});
-
-export const currenciesListLiteSafe = currencies
-  .filter((key) => safeToConvertion.includes(key))
+export const currencyListLiteSimple = currencies
+  .filter((key) => currenciesLite.includes(key))
   .map((key) => {
     let c = currencies[key];
     return {
@@ -215,3 +219,17 @@ export const currenciesListLiteSafe = currencies
       label: key,
     };
   });
+
+export default {
+  data: currencies,
+  list: currencyList,
+  simpleList: currencyListSimple,
+  lite: {
+    data: currenciesLite,
+    simpleList: currencyListSimple,
+    list: {
+      complete: currencyListLite,
+      simple: currencyListLiteSimple,
+    },
+  },
+};

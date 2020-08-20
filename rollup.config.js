@@ -29,6 +29,7 @@ export default [
       url(),
       json(),
       babel({
+        babelHelpers: "bundled",
         exclude: "node_modules/**",
       }),
       resolve(),
@@ -56,6 +57,7 @@ export default [
       json(),
       url(),
       babel({
+        babelHelpers: "bundled",
         exclude: "node_modules/**",
       }),
       resolve(),
@@ -83,6 +85,7 @@ export default [
       json(),
       url(),
       babel({
+        babelHelpers: "bundled",
         exclude: "node_modules/**",
       }),
       resolve(),
@@ -110,6 +113,7 @@ export default [
       json(),
       url(),
       babel({
+        babelHelpers: "bundled",
         exclude: "node_modules/**",
       }),
       resolve(),
@@ -137,6 +141,7 @@ export default [
       json(),
       url(),
       babel({
+        babelHelpers: "bundled",
         exclude: "node_modules/**",
       }),
       resolve(),
