@@ -321,18 +321,19 @@ This library also exposes GraphQL resolvers and type definations.
 #### `es6`
 
 ```js
-import Countries from "@doubco/countries/graphql";
+import { countries, locales } from "@doubco/countries/graphql";
 
 export default {
   typeDefs: [
-    Countries.typeDefs,
-    Auth.typeDefs,
+    countries.typeDefs, // this is it.
+    locales.typeDefs, // this is it.
     User.typeDefs,
     Log.typeDefs,
   ...
   ],
   resolvers: merge(
-    Countries.resolvers,
+    countries.resolvers, // this is it.
+    locales.resolvers, // this is it.
     Auth.resolvers,
     User.resolvers,
     ...
@@ -343,18 +344,20 @@ export default {
 #### `nodejs`
 
 ```js
-const  = require("@doubco/countries/graphql");
+const { countries, locales } = require("@doubco/countries/graphql");
 
 module.exports = {
   typeDefs: [
-    Countries.typeDefs, // this is it.
+    countries.typeDefs, // this is it.
+    locales.typeDefs, // this is it.
     Auth.typeDefs,
     User.typeDefs,
     Log.typeDefs,
   ...
   ],
   resolvers: merge(
-    Countries.resolvers, // this is it.
+    countries.resolvers, // this is it.
+    locales.resolvers, // this is it.
     Auth.resolvers,
     User.resolvers,
     ...
