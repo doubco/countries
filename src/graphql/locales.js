@@ -43,6 +43,7 @@ export default {
       DV
       NL_BE
       NL_NL
+      EN
       EN_AU
       EN_BZ
       EN_CA
@@ -56,6 +57,7 @@ export default {
       EN_ZA
       EN_TT
       EN_US
+      EN_SG
       ET
       FO
       FA
@@ -217,6 +219,8 @@ export default {
       EN_ZA: "en_ZA",
       EN_TT: "en_TT",
       EN_US: "en_US",
+      EN_SG: "en_SG",
+      EN: "en",
       ET: "et",
       FO: "fo",
       FA: "fa",
