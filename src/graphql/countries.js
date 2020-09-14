@@ -58,6 +58,7 @@ export default {
       CR
       CI
       HR
+      CU
       CY
       CZ
       DK
@@ -104,6 +105,7 @@ export default {
       IS
       IN
       ID
+      IR
       IQ
       IE
       IM
@@ -116,6 +118,7 @@ export default {
       KZ
       KE
       KI
+      KP
       KR
       XK
       KW
@@ -205,9 +208,11 @@ export default {
       SB
       SO
       ZA
+      SS
       GS
       ES
       LK
+      SD
       SR
       SJ
       SZ
