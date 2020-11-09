@@ -1,6 +1,6 @@
 {
   "name": "@doubco/countries",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Country, currency, language and time zone data formated as JSON",
   "license": "MIT",
   "main": "lib/index.js",
@@ -10,6 +10,11 @@
     "main": "lib/graphql/index.js",
     "commonjs": "lib/graphql/index.cjs.js",
     "module": "lib/graphql/index.es.js"
+  },
+  "phoneCodes": {
+    "main": "lib/phoneCodes/index.js",
+    "commonjs": "lib/phoneCodes/index.cjs.js",
+    "module": "lib/phoneCodes/index.es.js"
   },
   "timezones": {
     "main": "lib/timezones/index.js",
