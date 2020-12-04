@@ -44,14 +44,14 @@ liteSource.forEach((i) => (lite[i] = data[i]));
 export const timezones = data;
 export const timezonesLite = lite;
 
-export const timezoneList = timezones.map((key) => {
+export const timezoneList = Object.keys(timezones).map((key) => {
   return {
     _id: key,
     label: timezones[key],
   };
 });
 
-export const timezoneListLite = timezonesLite.map((key) => {
+export const timezoneListLite = Object.keys(timezonesLite).map((key) => {
   return {
     _id: key,
     label: timezonesLite[key],
