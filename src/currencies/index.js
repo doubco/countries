@@ -201,7 +201,7 @@ liteSource.forEach((key) => {
 export const currenciesLite = lite;
 
 export const currencyListLite = Object.keys(currencies)
-  .filter((key) => currenciesLite.includes(key))
+  .filter((key) => liteSource.includes(key))
   .map((key) => {
     let c = currencies[key];
     return {
@@ -211,7 +211,7 @@ export const currencyListLite = Object.keys(currencies)
   });
 
 export const currencyListLiteSimple = Object.keys(currencies)
-  .filter((key) => currenciesLite.includes(key))
+  .filter((key) => liteSource.includes(key))
   .map((key) => {
     let c = currencies[key];
     return {
