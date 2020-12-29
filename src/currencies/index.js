@@ -3,7 +3,7 @@ import data from "./data.json";
 
 export const currencies = data;
 
-export const currencyList = currencies.map((key) => {
+export const currencyList = Object.keys(currencies).map((key) => {
   let c = currencies[key];
   return {
     _id: key,
@@ -11,7 +11,7 @@ export const currencyList = currencies.map((key) => {
   };
 });
 
-export const currencyListSimple = currencies.map((key) => {
+export const currencyListSimple = Object.keys(currencies).map((key) => {
   let c = currencies[key];
   return {
     _id: key,
@@ -200,7 +200,7 @@ liteSource.forEach((key) => {
 
 export const currenciesLite = lite;
 
-export const currencyListLite = currencies
+export const currencyListLite = Object.keys(currencies)
   .filter((key) => currenciesLite.includes(key))
   .map((key) => {
     let c = currencies[key];
@@ -210,7 +210,7 @@ export const currencyListLite = currencies
     };
   });
 
-export const currencyListLiteSimple = currencies
+export const currencyListLiteSimple = Object.keys(currencies)
   .filter((key) => currenciesLite.includes(key))
   .map((key) => {
     let c = currencies[key];
