@@ -1,23 +1,28 @@
+import { Currencies, CurrencyCode, IListItem } from "../types";
 import data from "./data.json";
 // Default
 
-export const currencies = data;
+export const currencies: Currencies = data;
 
-export const currencyList = Object.keys(currencies).map((key) => {
-  let c = currencies[key];
-  return {
-    _id: key,
-    label: `${c.name} (${c.nativeSymbol})`,
-  };
-});
+export const currencyList: IListItem[] = Object.keys(currencies).map(
+  (key: CurrencyCode) => {
+    let c = currencies[key];
+    return {
+      _id: key,
+      label: `${c.name} (${c.nativeSymbol})`,
+    };
+  },
+);
 
-export const currencyListSimple = Object.keys(currencies).map((key) => {
-  let c = currencies[key];
-  return {
-    _id: key,
-    label: key,
-  };
-});
+export const currencyListSimple: IListItem[] = Object.keys(currencies).map(
+  (key: CurrencyCode) => {
+    let c = currencies[key];
+    return {
+      _id: key,
+      label: key,
+    };
+  },
+);
 
 // Lite
 
@@ -192,17 +197,17 @@ const liteSource = [
   "ZWL",
 ];
 
-let lite = {};
+let lite: any = {};
 
-liteSource.forEach((key) => {
+liteSource.forEach((key: CurrencyCode) => {
   lite[key] = currencies[key];
 });
 
-export const currenciesLite = lite;
+export const currenciesLite: Currencies = lite;
 
-export const currencyListLite = Object.keys(currencies)
+export const currencyListLite: IListItem[] = Object.keys(currencies)
   .filter((key) => liteSource.includes(key))
-  .map((key) => {
+  .map((key: CurrencyCode) => {
     let c = currencies[key];
     return {
       _id: key,
@@ -210,9 +215,9 @@ export const currencyListLite = Object.keys(currencies)
     };
   });
 
-export const currencyListLiteSimple = Object.keys(currencies)
+export const currencyListLiteSimple: IListItem[] = Object.keys(currencies)
   .filter((key) => liteSource.includes(key))
-  .map((key) => {
+  .map((key: CurrencyCode) => {
     let c = currencies[key];
     return {
       _id: key,

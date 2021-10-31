@@ -1,40 +1,26 @@
 {
   "name": "@doubco/countries",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Country, currency, language and time zone data formated as JSON",
   "license": "MIT",
   "main": "lib/index.js",
-  "commonjs": "lib/index.cjs.js",
-  "module": "lib/index.es.js",
   "graphql": {
-    "main": "lib/graphql/index.js",
-    "commonjs": "lib/graphql/index.cjs.js",
-    "module": "lib/graphql/index.es.js"
+    "main": "lib/graphql/index.js"
   },
   "phoneCodes": {
-    "main": "lib/phoneCodes/index.js",
-    "commonjs": "lib/phoneCodes/index.cjs.js",
-    "module": "lib/phoneCodes/index.es.js"
+    "main": "lib/phoneCodes/index.js"
   },
   "timezones": {
-    "main": "lib/timezones/index.js",
-    "commonjs": "lib/timezones/index.cjs.js",
-    "module": "lib/timezones/index.es.js"
+    "main": "lib/timezones/index.js"
   },
   "currencies": {
-    "main": "lib/currencies/index.js",
-    "commonjs": "lib/currencies/index.cjs.js",
-    "module": "lib/currencies/index.es.js"
+    "main": "lib/currencies/index.js"
   },
   "languages": {
-    "main": "lib/languages/index.js",
-    "commonjs": "lib/languages/index.cjs.js",
-    "module": "lib/languages/index.es.js"
+    "main": "lib/languages/index.js"
   },
   "locales": {
-    "main": "lib/locales/index.js",
-    "commonjs": "lib/locales/index.cjs.js",
-    "module": "lib/locales/index.es.js"
+    "main": "lib/locales/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -57,22 +43,22 @@
     "json"
   ],
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/plugin-proposal-class-properties": "^7.3.0",
-    "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
-    "@babel/preset-env": "^7.3.1",
-    "@babel/preset-react": "^7.0.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.13.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-prettier": "^3.0.1",
-    "prettier": "^1.16.4",
-    "rollup-plugin-peer-deps-external": "^2.2.0",
-    "@rollup/plugin-babel": "^5.2.0",
-    "@rollup/plugin-commonjs": "^15.0.0",
+    "@babel/core": "^7.15.8",
+    "@babel/eslint-parser": "^7.5.4",
     "@rollup/plugin-json": "^4.1.0",
-    "@rollup/plugin-node-resolve": "^9.0.0",
-    "@rollup/plugin-url": "^5.0.1"
+    "@types/react": "^17.0.30",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint": "8.0.1",
+    "eslint-config-next": "11.1.2",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.4.1",
+    "react": "^17.0.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.4.4"
   },
   "bugs": {
     "url": "https://github.com/doubco/countries/issues"

@@ -1,8 +1,9 @@
-import data from "./data";
+import data from "./data.json";
+import { CountryCode, Countries } from "./types";
 
-export const countries = data;
+export const countries: Countries = data;
 
-export const countryList = Object.keys(countries).map((key) => {
+export const countryList = Object.keys(countries).map((key: CountryCode) => {
   let l = countries[key];
   return {
     _id: key,
