@@ -1,10 +1,10 @@
-import { IListItem, LocaleCode, Locales } from "../types";
+import { IListItem, ELocale, TLocales } from "../types";
 import data from "./data.json";
 
-export const locales: Locales = data;
+export const locales: TLocales = data;
 
 export const localeList: IListItem[] = Object.keys(locales).map(
-  (key: LocaleCode) => {
+  (key: ELocale) => {
     return {
       _id: key,
       label: locales[key],

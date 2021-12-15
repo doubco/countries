@@ -1,10 +1,10 @@
-import { IListItem, LanguageCode, Languages } from "../types";
+import { IListItem, ELanguage, TLanguages } from "../types";
 import data from "./data.json";
 
-export const languages: Languages = data;
+export const languages: TLanguages = data;
 
 export const languageList: IListItem[] = Object.keys(languages).map(
-  (key: LanguageCode) => {
+  (key: ELanguage) => {
     let l = languages[key];
     return {
       _id: key,

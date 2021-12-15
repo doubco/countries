@@ -1,10 +1,10 @@
 import data from "./data.json";
-import { CountryCode, IListItem, PhoneCodes } from "../types";
+import { ECountry, IListItem, TPhoneCodes } from "../types";
 
-export const phoneCodes: PhoneCodes = data;
+export const phoneCodes: TPhoneCodes = data;
 
 export const phoneCodeList: IListItem[] = Object.keys(phoneCodes).map(
-  (key: CountryCode): IListItem => {
+  (key: ECountry): IListItem => {
     let i = phoneCodes[key];
     return {
       _id: `${key}${i.code.replace("+", "")}`,
@@ -17,7 +17,7 @@ const convertKey = (key: string): string => key.toUpperCase();
 
 const exportDataAsGraphQLEnum = (data: any) => {
   let x: any = {};
-  Object.keys(data).forEach((key: CountryCode) => {
+  Object.keys(data).forEach((key: ECountry) => {
     x[convertKey(key)] = `${key}`;
   });
   return x;

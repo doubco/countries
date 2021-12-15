@@ -1,4 +1,4 @@
-export enum CountryCode {
+export enum ECountry {
   AF = "AF",
   AX = "AX",
   AL = "AL",
@@ -247,7 +247,7 @@ export enum CountryCode {
   ZW = "ZW",
 }
 
-export enum TimezoneCode {
+export enum ETimezone {
   PACIFIC__NIUE = "Pacific/Niue",
   PACIFIC__PAGO_PAGO = "Pacific/Pago_Pago",
   PACIFIC__HONOLULU = "Pacific/Honolulu",
@@ -500,7 +500,7 @@ export enum TimezoneCode {
   PACIFIC__KIRITIMATI = "Pacific/Kiritimati",
 }
 
-export enum LocaleCode {
+export enum ELocale {
   AF_NA = "af_NA",
   AF_ZA = "af_ZA",
   AF = "af",
@@ -939,7 +939,7 @@ export enum LocaleCode {
   ZU = "zu",
 }
 
-export enum LanguageCode {
+export enum ELanguage {
   AA = "aa",
   AB = "ab",
   AF = "af",
@@ -1125,7 +1125,7 @@ export enum LanguageCode {
   ZU = "zu",
 }
 
-export enum CurrencyCode {
+export enum ECurrency {
   AED = "AED",
   AFN = "AFN",
   ALL = "ALL",
@@ -1290,7 +1290,7 @@ export enum CurrencyCode {
   ZMW = "ZMW",
 }
 
-export type CountryNode = {
+export type TCountryNode = {
   name?: string;
   flag?: string;
   code?: string;
@@ -1300,18 +1300,18 @@ export type CountryNode = {
   nativeName?: string;
 };
 
-export type PhoneCodeNode = {
+export type TPhoneCodeNode = {
   name?: string;
   code?: string;
   flag?: string;
 };
 
-export type LanguageNode = {
+export type TLanguageNode = {
   name?: string;
   nativeName?: string;
 };
 
-export type CurrencyNode = {
+export type TCurrencyNode = {
   symbol: string;
   nativeSymbol: string;
   decimalDigits: number;
@@ -1319,28 +1319,28 @@ export type CurrencyNode = {
   namePlural: string;
 };
 
-export type Countries = {
-  [K in CountryCode]: CountryNode;
+export type TCountries = {
+  [K in ECountry]: TCountryNode;
 };
 
-export type Timezones = {
-  [K in TimezoneCode]: string;
+export type TTimezones = {
+  [K in ETimezone]: string;
 };
 
-export type PhoneCodes = {
-  [K in CountryCode]: PhoneCodeNode;
+export type TPhoneCodes = {
+  [K in ECountry]: TPhoneCodeNode;
 };
 
-export type Locales = {
-  [K in LocaleCode]: string;
+export type TLocales = {
+  [K in ELocale]: string;
 };
 
-export type Languages = {
-  [K in LanguageCode]: LanguageNode;
+export type TLanguages = {
+  [K in ELanguage]: TLanguageNode;
 };
 
-export type Currencies = {
-  [K in CurrencyCode]: CurrencyNode;
+export type TCurrencies = {
+  [K in ECurrency]: TCurrencyNode;
 };
 
 export interface IListItem {

@@ -1,10 +1,10 @@
-import { Currencies, CurrencyCode, IListItem } from "../types";
+import { TCurrencies, ECurrency, IListItem } from "../types";
 import data from "./data.json";
 
-export const currencies: Currencies = data;
+export const currencies: TCurrencies = data;
 
 export const currencyList: IListItem[] = Object.keys(currencies).map(
-  (key: CurrencyCode) => {
+  (key: ECurrency) => {
     let c = currencies[key];
     return {
       _id: key,
@@ -14,7 +14,7 @@ export const currencyList: IListItem[] = Object.keys(currencies).map(
 );
 
 export const currencyListSimple: IListItem[] = Object.keys(currencies).map(
-  (key: CurrencyCode) => {
+  (key: ECurrency) => {
     let c = currencies[key];
     return {
       _id: key,

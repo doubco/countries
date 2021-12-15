@@ -1,54 +1,54 @@
-import { IListItem, TimezoneCode, Timezones } from "../types";
+import { IListItem, ETimezone, TTimezones } from "../types";
 
 import data from "./data.json";
 
-const source: Timezones = data;
+const source: TTimezones = data;
 
 let lite: any = {};
 
-const liteSource: TimezoneCode[] = [
-  TimezoneCode.PACIFIC__PAGO_PAGO,
-  TimezoneCode.PACIFIC__HONOLULU,
-  TimezoneCode.PACIFIC__TAHITI,
-  TimezoneCode.AMERICA__ANCHORAGE,
-  TimezoneCode.AMERICA__LOS_ANGELES,
-  TimezoneCode.AMERICA__DENVER,
-  TimezoneCode.AMERICA__CHICAGO,
-  TimezoneCode.AMERICA__NEW_YORK,
-  TimezoneCode.AMERICA__HALIFAX,
-  TimezoneCode.AMERICA__ARGENTINA,
-  TimezoneCode.AMERICA__SAO_PAULO,
-  TimezoneCode.ATLANTIC__AZORES,
-  TimezoneCode.EUROPE__LONDON,
-  TimezoneCode.EUROPE__BERLIN,
-  TimezoneCode.EUROPE__HELSINKI,
-  TimezoneCode.EUROPE__ISTANBUL,
-  TimezoneCode.ASIA__DUBAI,
-  TimezoneCode.ASIA__KABUL,
-  TimezoneCode.INDIAN__MALDIVES,
-  TimezoneCode.ASIA__KATHMANDU,
-  TimezoneCode.ASIA__DHAKA,
-  TimezoneCode.INDIAN__COCOS,
-  TimezoneCode.ASIA__BANGKOK,
-  TimezoneCode.ASIA__HONG_KONG,
-  TimezoneCode.ASIA__PYONGYANG,
-  TimezoneCode.ASIA__TOKYO,
-  TimezoneCode.AUSTRALIA__DARWIN,
-  TimezoneCode.AUSTRALIA__BRISBANE,
-  TimezoneCode.AUSTRALIA__ADELAIDE,
-  TimezoneCode.AUSTRALIA__SYDNEY,
-  TimezoneCode.PACIFIC__NAURU,
-  TimezoneCode.PACIFIC__AUCKLAND,
-  TimezoneCode.PACIFIC__KIRITIMATI,
+const liteSource: ETimezone[] = [
+  ETimezone.PACIFIC__PAGO_PAGO,
+  ETimezone.PACIFIC__HONOLULU,
+  ETimezone.PACIFIC__TAHITI,
+  ETimezone.AMERICA__ANCHORAGE,
+  ETimezone.AMERICA__LOS_ANGELES,
+  ETimezone.AMERICA__DENVER,
+  ETimezone.AMERICA__CHICAGO,
+  ETimezone.AMERICA__NEW_YORK,
+  ETimezone.AMERICA__HALIFAX,
+  ETimezone.AMERICA__ARGENTINA,
+  ETimezone.AMERICA__SAO_PAULO,
+  ETimezone.ATLANTIC__AZORES,
+  ETimezone.EUROPE__LONDON,
+  ETimezone.EUROPE__BERLIN,
+  ETimezone.EUROPE__HELSINKI,
+  ETimezone.EUROPE__ISTANBUL,
+  ETimezone.ASIA__DUBAI,
+  ETimezone.ASIA__KABUL,
+  ETimezone.INDIAN__MALDIVES,
+  ETimezone.ASIA__KATHMANDU,
+  ETimezone.ASIA__DHAKA,
+  ETimezone.INDIAN__COCOS,
+  ETimezone.ASIA__BANGKOK,
+  ETimezone.ASIA__HONG_KONG,
+  ETimezone.ASIA__PYONGYANG,
+  ETimezone.ASIA__TOKYO,
+  ETimezone.AUSTRALIA__DARWIN,
+  ETimezone.AUSTRALIA__BRISBANE,
+  ETimezone.AUSTRALIA__ADELAIDE,
+  ETimezone.AUSTRALIA__SYDNEY,
+  ETimezone.PACIFIC__NAURU,
+  ETimezone.PACIFIC__AUCKLAND,
+  ETimezone.PACIFIC__KIRITIMATI,
 ];
 
-liteSource.forEach((i: TimezoneCode) => (lite[i] = source[i]));
+liteSource.forEach((i: ETimezone) => (lite[i] = source[i]));
 
-export const timezones: Timezones = source;
-export const timezonesLite: Timezones = lite;
+export const timezones: TTimezones = source;
+export const timezonesLite: TTimezones = lite;
 
 export const timezoneList: IListItem[] = Object.keys(timezones).map(
-  (key: TimezoneCode) => {
+  (key: ETimezone) => {
     return {
       _id: key,
       label: timezones[key],
@@ -57,7 +57,7 @@ export const timezoneList: IListItem[] = Object.keys(timezones).map(
 );
 
 export const timezoneListLite: IListItem[] = Object.keys(timezonesLite).map(
-  (key: TimezoneCode) => {
+  (key: ETimezone) => {
     return {
       _id: key,
       label: timezonesLite[key],
@@ -68,9 +68,9 @@ export const timezoneListLite: IListItem[] = Object.keys(timezonesLite).map(
 const convertKey = (key: string): string =>
   key.toUpperCase().replace("/", "__");
 
-const exportDataAsGraphQLEnum = (data: Timezones) => {
+const exportDataAsGraphQLEnum = (data: TTimezones) => {
   let x: any = {};
-  Object.keys(data).forEach((key: TimezoneCode) => {
+  Object.keys(data).forEach((key: ETimezone) => {
     x[convertKey(key)] = data[key];
   });
   return x;

@@ -1,11 +1,11 @@
 import data from "./data.json";
-import { CountryCode, Countries } from "./types";
+import { ECountry, TCountries } from "./types";
 
 export * from "./types";
 
-export const countries: Countries = data;
+export const countries: TCountries = data;
 
-export const countryList = Object.keys(countries).map((key: CountryCode) => {
+export const countryList = Object.keys(countries).map((key: ECountry) => {
   let l = countries[key];
   return {
     _id: key,
