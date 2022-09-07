@@ -1139,6 +1139,7 @@
     "nativeSymbol": "BTC",
     "name": "Bitcoin",
     "namePlural": "Bitcoin",
+    "decimalDigits": 7,
     "isCrypto": true
   },
   "ETH": {
@@ -1146,6 +1147,7 @@
     "nativeSymbol": "ETH",
     "name": "Ethereum",
     "namePlural": "Ethereum",
+    "decimalDigits": 18,
     "isCrypto": true
   },
   "ALGO": {
@@ -1153,6 +1155,7 @@
     "nativeSymbol": "ALGO",
     "name": "Algorand",
     "namePlural": "Algorand",
+    "decimalDigits": 18,
     "isCrypto": true
   },
   "SOL": {
@@ -1160,6 +1163,7 @@
     "nativeSymbol": "SOL",
     "name": "Solana",
     "namePlural": "Solana",
+    "decimalDigits": 18,
     "isCrypto": true
   },
   "USDT": {
@@ -1167,6 +1171,7 @@
     "nativeSymbol": "USDT",
     "name": "Tether",
     "namePlural": "Tether",
+    "decimalDigits": 2,
     "isCrypto": true
   },
   "USDC": {
@@ -1174,6 +1179,7 @@
     "nativeSymbol": "USDC",
     "name": "USD Coin",
     "namePlural": "USD Coin",
+    "decimalDigits": 2,
     "isCrypto": true
   },
   "XRP": {
@@ -1181,6 +1187,7 @@
     "nativeSymbol": "XRP",
     "name": "XRP",
     "namePlural": "XRP",
+    "decimalDigits": 6,
     "isCrypto": true
   },
   "DOGE": {
@@ -1188,6 +1195,7 @@
     "nativeSymbol": "DOGE",
     "name": "Dogecoin",
     "namePlural": "Dogecoin",
+    "decimalDigits": 18,
     "isCrypto": true
   },
   "SHIB": {
@@ -1195,6 +1203,7 @@
     "nativeSymbol": "SHIB",
     "name": "",
     "namePlural": "",
+    "decimalDigits": 18,
     "isCrypto": true
   },
   "DOT": {
@@ -1202,13 +1211,15 @@
     "nativeSymbol": "DOT",
     "name": "Shiba Inu",
     "namePlural": "Shiba Inu",
+    "decimalDigits": 10,
     "isCrypto": true
   },
   "ADA": {
     "symbol": "ADA",
     "nativeSymbol": "ADA",
-    "name": "Cardano",
-    "namePlural": "Cardano",
+    "name": "Lovelace (Cardano)",
+    "namePlural": "Lovelace (Cardano)",
+    "decimalDigits": 6,
     "isCrypto": true
   },
   "BNB": {
@@ -1216,6 +1227,7 @@
     "nativeSymbol": "BNB",
     "name": "BNB",
     "namePlural": "BNB",
+    "decimalDigits": 18,
     "isCrypto": true
   },
   "BUSD": {
@@ -1223,6 +1235,7 @@
     "nativeSymbol": "BUSD",
     "name": "Binance USD",
     "namePlural": "Binance USD",
+    "decimalDigits": 2,
     "isCrypto": true
   },
   "MATIC": {
@@ -1230,6 +1243,7 @@
     "nativeSymbol": "MATIC",
     "name": "MATIC",
     "namePlural": "MATIC",
+    "decimalDigits": 18,
     "isCrypto": true
   },
   "DAI": {
@@ -1237,6 +1251,7 @@
     "nativeSymbol": "DAI",
     "name": "Dai",
     "namePlural": "Dai",
+    "decimalDigits": 18,
     "isCrypto": true
   },
   "AVAX": {
@@ -1244,6 +1259,7 @@
     "nativeSymbol": "AVAX",
     "name": "Avalanche",
     "namePlural": "Avalanche",
+    "decimalDigits": 18,
     "isCrypto": true
   },
   "UNI": {
@@ -1251,6 +1267,7 @@
     "nativeSymbol": "UNI",
     "name": "Uniswap",
     "namePlural": "Uniswap",
+    "decimalDigits": 18,
     "isCrypto": true
   },
   "XTZ": {
@@ -1258,6 +1275,7 @@
     "nativeSymbol": "XTZ",
     "name": "Tezos",
     "namePlural": "Tezos",
+    "decimalDigits": 18,
     "isCrypto": true
   }
 }

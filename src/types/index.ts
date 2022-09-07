@@ -1288,6 +1288,25 @@ export enum ECurrency {
   YER = "YER",
   ZAR = "ZAR",
   ZMW = "ZMW",
+  // Crypto currencies
+  BTC = "BTC",
+  ETH = "ETH",
+  ALGO = "ALGO",
+  SOL = "SOL",
+  USDT = "USDT",
+  USDC = "USDC",
+  XRP = "XRP",
+  DOGE = "DOGE",
+  SHIB = "SHIB",
+  DOT = "DOT",
+  ADA = "ADA",
+  BNB = "BNB",
+  BUSD = "BUSD",
+  MATIC = "MATIC",
+  DAI = "DAI",
+  AVAX = "AVAX",
+  UNI = "UNI",
+  XTZ = "XTZ",
 }
 
 export type TCountryNode = {
