@@ -1317,6 +1317,7 @@ export type TCurrencyNode = {
   decimalDigits: number;
   name: string;
   namePlural: string;
+  isCrypto?: boolean;
 };
 
 export type TCountries = {

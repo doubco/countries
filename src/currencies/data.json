@@ -1133,5 +1133,131 @@
     "decimalDigits": 2,
     "name": "Zambian Kwacha",
     "namePlural": "Zambian kwachas"
+  },
+  "BTC": {
+    "symbol": "BTC",
+    "nativeSymbol": "BTC",
+    "name": "Bitcoin",
+    "namePlural": "Bitcoin",
+    "isCrypto": true
+  },
+  "ETH": {
+    "symbol": "ETH",
+    "nativeSymbol": "ETH",
+    "name": "Ethereum",
+    "namePlural": "Ethereum",
+    "isCrypto": true
+  },
+  "ALGO": {
+    "symbol": "ALGO",
+    "nativeSymbol": "ALGO",
+    "name": "Algorand",
+    "namePlural": "Algorand",
+    "isCrypto": true
+  },
+  "SOL": {
+    "symbol": "SOL",
+    "nativeSymbol": "SOL",
+    "name": "Solana",
+    "namePlural": "Solana",
+    "isCrypto": true
+  },
+  "USDT": {
+    "symbol": "USDT",
+    "nativeSymbol": "USDT",
+    "name": "Tether",
+    "namePlural": "Tether",
+    "isCrypto": true
+  },
+  "USDC": {
+    "symbol": "USDC",
+    "nativeSymbol": "USDC",
+    "name": "USD Coin",
+    "namePlural": "USD Coin",
+    "isCrypto": true
+  },
+  "XRP": {
+    "symbol": "XRP",
+    "nativeSymbol": "XRP",
+    "name": "XRP",
+    "namePlural": "XRP",
+    "isCrypto": true
+  },
+  "DOGE": {
+    "symbol": "DOGE",
+    "nativeSymbol": "DOGE",
+    "name": "Dogecoin",
+    "namePlural": "Dogecoin",
+    "isCrypto": true
+  },
+  "SHIB": {
+    "symbol": "SHIB",
+    "nativeSymbol": "SHIB",
+    "name": "",
+    "namePlural": "",
+    "isCrypto": true
+  },
+  "DOT": {
+    "symbol": "DOT",
+    "nativeSymbol": "DOT",
+    "name": "Shiba Inu",
+    "namePlural": "Shiba Inu",
+    "isCrypto": true
+  },
+  "ADA": {
+    "symbol": "ADA",
+    "nativeSymbol": "ADA",
+    "name": "Cardano",
+    "namePlural": "Cardano",
+    "isCrypto": true
+  },
+  "BNB": {
+    "symbol": "BNB",
+    "nativeSymbol": "BNB",
+    "name": "BNB",
+    "namePlural": "BNB",
+    "isCrypto": true
+  },
+  "BUSD": {
+    "symbol": "BUSD",
+    "nativeSymbol": "BUSD",
+    "name": "Binance USD",
+    "namePlural": "Binance USD",
+    "isCrypto": true
+  },
+  "MATIC": {
+    "symbol": "MATIC",
+    "nativeSymbol": "MATIC",
+    "name": "MATIC",
+    "namePlural": "MATIC",
+    "isCrypto": true
+  },
+  "DAI": {
+    "symbol": "DAI",
+    "nativeSymbol": "DAI",
+    "name": "Dai",
+    "namePlural": "Dai",
+    "isCrypto": true
+  },
+  "AVAX": {
+    "symbol": "AVAX",
+    "nativeSymbol": "AVAX",
+    "name": "Avalanche",
+    "namePlural": "Avalanche",
+    "isCrypto": true
+  },
+  "UNI": {
+    "symbol": "UNI",
+    "nativeSymbol": "UNI",
+    "name": "Uniswap",
+    "namePlural": "Uniswap",
+    "isCrypto": true
+  },
+  "XTZ": {
+    "symbol": "XTZ",
+    "nativeSymbol": "XTZ",
+    "name": "Tezos",
+    "namePlural": "Tezos",
+    "isCrypto": true
   }
 }

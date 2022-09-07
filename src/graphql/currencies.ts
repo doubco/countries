@@ -24,7 +24,6 @@ export default {
       BOB
       BRL
       BSD
-      BTC
       BTN
       BWP
       BYN
@@ -171,6 +170,25 @@ export default {
       ZMK
       ZMW
       ZWL
+      # Crypto Currencies
+      BTC
+      ETH
+      ALGO
+      SOL
+      USDT
+      USDC
+      XRP
+      DOGE
+      SHIB
+      DOT
+      ADA
+      BNB
+      BUSD
+      MATIC
+      DAI
+      AVAX
+      UNI
+      XTZ
     }
   `,
   resolvers: {
@@ -196,7 +214,6 @@ export default {
       BOB: "BOB",
       BRL: "BRL",
       BSD: "BSD",
-      BTC: "BTC",
       BTN: "BTN",
       BWP: "BWP",
       BYN: "BYN",
@@ -343,6 +360,25 @@ export default {
       ZMK: "ZMK",
       ZMW: "ZMW",
       ZWL: "ZWL",
+      // Crypto Currencies
+      BTC: "BTC",
+      ETH: "ETH",
+      ALGO: "ALGO",
+      SOL: "SOL",
+      USDT: "USDT",
+      USDC: "USDC",
+      XRP: "XRP",
+      DOGE: "DOGE",
+      SHIB: "SHIB",
+      DOT: "DOT",
+      ADA: "ADA",
+      BNB: "BNB",
+      BUSD: "BUSD",
+      MATIC: "MATIC",
+      DAI: "DAI",
+      AVAX: "AVAX",
+      UNI: "UNI",
+      XTZ: "XTZ",
     },
   },
 };
