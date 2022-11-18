@@ -6,6 +6,8 @@ const source: TTimezones = data;
 
 let lite: any = {};
 
+let keys: any = {};
+
 const liteSource: ETimezone[] = [
   ETimezone.PACIFIC__PAGO_PAGO,
   ETimezone.PACIFIC__HONOLULU,
@@ -82,6 +84,10 @@ const exportListAsGraphQLEnum = (list: IListItem[]) => {
   }));
 };
 
+Object.keys(data).forEach((key: ETimezone) => {
+  keys[convertKey(key)] = key;
+});
+
 export default {
   data: timezones,
   list: timezoneList,
@@ -90,6 +96,7 @@ export default {
     list: timezoneListLite,
   },
   graphql: {
+    keys,
     data: exportDataAsGraphQLEnum(timezones),
     list: exportListAsGraphQLEnum(timezoneList),
     lite: {
