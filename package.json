@@ -1,6 +1,6 @@
 {
   "name": "@doubco/countries",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "Country, currency, language and time zone data formated as JSON",
   "license": "MIT",
   "main": "lib/index.js",

@@ -322,7 +322,7 @@ export default {
       AMERICA__ARAGUAINA: "America/Araguaina",
       AMERICA__ASUNCION: "America/Asuncion",
       AMERICA__BELEM: "America/Belem",
-      AMERICA__ARGENTINA: "America/Argentina",
+      AMERICA__ARGENTINA: "America/Argentina/Buenos_Aires",
       AMERICA__CAMPO_GRANDE: "America/Campo_Grande",
       AMERICA__CAYENNE: "America/Cayenne",
       AMERICA__CUIABA: "America/Cuiaba",
