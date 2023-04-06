@@ -259,6 +259,30 @@ const regions = [
 
 export default [
   {
+    input: regions.map(
+      (region) => `./src/regions/separated/${region}/index.ts`,
+    ),
+    output: [
+      {
+        dir: "./lib/regions/separated",
+        format: "cjs",
+        sourcemap: true,
+        exports: "named",
+        preserveModules: true,
+        preserveModulesRoot: "src/regions/separated",
+      },
+    ],
+    plugins: [
+      json(),
+      external(),
+      typescript({
+        clean: true,
+        useTsconfigDeclarationDir: true,
+      }),
+    ],
+  },
+
+  {
     input: "./src/index.ts",
     output: [
       {
@@ -410,23 +434,4 @@ export default [
       }),
     ],
   },
-  ...regions.map((region) => ({
-    input: `./src/regions/separated/${region}/index.ts`,
-    output: [
-      {
-        file: `lib/regions/separated/${region}/index.js`,
-        format: "cjs",
-        sourcemap: true,
-        exports: "named",
-      },
-    ],
-    plugins: [
-      json(),
-      external(),
-      typescript({
-        clean: true,
-        useTsconfigDeclarationDir: true,
-      }),
-    ],
-  })),
 ];

@@ -1,7 +1,7 @@
 {
   "name": "@doubco/countries",
-  "version": "1.1.9",
-  "description": "Country, currency, language and time zone data formated as JSON",
+  "version": "1.2.0",
+  "description": "Countries, regions, currencies, languages, phone codes, and timezones data formated as JSON.",
   "license": "MIT",
   "main": "lib/index.js",
   "graphql": {
@@ -60,7 +60,7 @@
     "prettier": "^2.4.1",
     "react": "^17.0.2",
     "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-typescript2": "^0.34.1",
     "typescript": "^4.4.4"
   },
   "bugs": {

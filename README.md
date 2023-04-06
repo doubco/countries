@@ -378,3 +378,7 @@ Pull requests are welcome and please submit bugs 🐛.
 - Follow [@doubco](https://twitter.com/doubco) on Twitter
 - Follow [@doubco](http://instagram.com/doubco) on Instagram
 - Email <mailto:hi@doub.co>
+
+## Notes
+
+Region data is from https://github.com/country-regions/country-region-data
