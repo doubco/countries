@@ -22,6 +22,9 @@
   "locales": {
     "main": "lib/locales/index.js"
   },
+  "regions": {
+    "main": "lib/regions/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "rollup -c -w",
